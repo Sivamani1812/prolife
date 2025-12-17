@@ -16,6 +16,7 @@ import { FaCheckCircle } from "react-icons/fa";
 
 const PrePregnancy = () => {
   
+  
   const features = [
     {
       title: "Experienced Gynecologists",
@@ -295,9 +296,10 @@ const toggleFAQ = (index) => {
           className="story-hero-image"
         />
         <div className="story-hero-overlay">
-          <h1 className="story-hero-title">Pre-Pregnancy Counselling in Chennai</h1>
+          
         </div>
       </div>
+      <h1 className="story-hero-title1">Pre-Pregnancy Counselling in Chennai</h1>
 
       {/* PLAN PREGNANCY SECTION */}
       <section className="plan-pregnancy-section">
@@ -305,8 +307,7 @@ const toggleFAQ = (index) => {
 
           <div className="plan-left">
             <h2 className="plan-title">
-              Plan Your Pregnancy with <br />
-              <span>Expert Medical Guidance</span>
+              Plan Your Pregnancy with Expert Medical Guidance <span></span>
             </h2>
 
             <p className="plan-description">
@@ -379,7 +380,7 @@ const toggleFAQ = (index) => {
           ))}
         </div>
 
-        <a href="#" className="success-btn">
+        <a href="https://www.justdial.com/Chennai/Prolife-Maternity-and-Fertility-Hospital-Near-DLF-LT-and-Chennai-Trade-Centre-Manapakkam/044PXX44-XX44-191211174423-E9K1_BZDET/reviews" className="success-btn">
           Read Patient Success Stories →
         </a>
       </section>
@@ -403,7 +404,7 @@ const toggleFAQ = (index) => {
           ))}
         </div>
 
-        <a href="#" className="assess-btn">
+        <a href="/contact" className="assess-btn">
           Schedule a Consultation →
         </a>
       </section>
@@ -424,7 +425,9 @@ const toggleFAQ = (index) => {
         ))}
       </div>
 
-      <button className="plan-btn">Book Your Consultation</button>
+      <a href="/contact" className="helps-btn">
+          Book Your Consultation →
+        </a>
     </section>
 
      <section className="helps-section">
@@ -493,30 +496,71 @@ const toggleFAQ = (index) => {
       </div>
     </section>
 
-<section className="experts-section">
-      <h2 className="section-title">
-        Meet Our Pre-Pregnancy Counselling Experts
-      </h2>
-      <div className="experts-grid">
-        {experts.map((expert, i) => (
-          <div className="expert-card" key={i}>
-            <div className="expert-img-wrapper">
-              <img src={expert.img} alt={expert.name} className="expert-img" />
+
+      <section className="eds-section">
+        <div className="eds-container">
+
+          <div className="eds-header">
+            <h2>Meet Our Pre-Pregnancy Counselling Experts</h2>
+            <p>Skilled Hands, Compassionate Hearts</p>
+          </div>
+
+          {/* Founder Highlight */}
+          <div className="eds-founder-highlight">
+            <div className="eds-founder-img">
+              <img src="./images/img/d11.png" alt="Dr. Thamarai" />
             </div>
-            <div className="expert-content">
-              <h3 className="expert-name">{expert.name}</h3>
-              <p className="expert-title">{expert.title}</p>
-              <p className="expert-desc">{expert.desc}</p>
+
+            <div className="eds-founder-content">
+              <span className="eds-founder-tag">Founder</span>
+              <h3>Dr. Thamarai</h3>
+              <h4>Maternal – Fetal Medicine Specialist</h4>
+              <p>
+                Founder of our hospital and Expert in managing complex medical conditions before and during pregnancy—diabetes, hypertension, autoimmune disorders.
+              </p>
             </div>
           </div>
-        ))}
+
+          <div className="eds-grid">
+
+            <div className="eds-card">
+              <span className="eds-bar"></span>
+              <h3>Dr. Sujitha R – Senior Gynecologist</h3>
+              <p>
+                15+ years managing normal and complicated pregnancies. Known for her patient-centered approach that ensures mothers feel heard and supported.
+              </p>
+            </div>
+
+
+
+            <div className="eds-card">
+              <span className="eds-bar"></span>
+              <h3>Dr. Varshini – Fertility Specialist</h3>
+              <p>
+                Advanced training in reproductive endocrinology. Helps couples facing conception challenges using evidence-based approaches.
+              </p>
+            </div>
+            <div className="eds-card">
+              <span className="eds-bar"></span>
+              <h3>Dr. Uma Maheshwari - Pediatrician</h3>
+              <p>
+                Provides immediate newborn care and assessment. Conducts baby's first health checks, vaccination planning, and addresses parental concerns.
+              </p>
+            </div>
+          
+
+          </div>
+          <div className="consultation-cta">
+            <a href="/contact" className="cta-btn">
+              Have questions? Book a Consultation →
+            </a>
+          </div>
+
+      
       </div>
-      <div className="consultation-cta">
-        <a href="/contact" className="cta-btn">
-          Have questions? Book a Consultation →
-        </a>
-      </div>
-    </section>
+      </section>
+
+
 
     <section className="why-prolife-section">
   <h2 className="section-title">Why Prolife Hospitals?</h2>
@@ -544,9 +588,9 @@ const toggleFAQ = (index) => {
 
 {/* Reviews Section */}
       <section className="reviews-section">
-  <p className="sub-title">TESTIMONIALS</p>
+  <p className="sub-title">Testimonials</p>
   <div className="google-rating">
-    ⭐⭐⭐⭐⭐ <span>5/5 Google Rating</span>
+    <span>4.5/5 Google Rating</span>
   </div>
 
   <div className="reviews-container">
@@ -565,12 +609,12 @@ const toggleFAQ = (index) => {
   </div>
 
   <a
-    href="https://g.page/r/CS9733eotKhCEBM/review"
+    href="https://www.justdial.com/Chennai/Prolife-Maternity-and-Fertility-Hospital-Near-DLF-LT-and-Chennai-Trade-Centre-Manapakkam/044PXX44-XX44-191211174423-E9K1_BZDET/reviews"
     target="_blank"
     rel="noreferrer"
     className="see-more-btn"
   >
-    ⭐ See More Reviews
+   See More Reviews
   </a>
 </section>
 
@@ -586,7 +630,7 @@ const toggleFAQ = (index) => {
                    Monday - Saturday: 9 AM - 8 PM <br />
                    Sunday: 9 AM - 2 PM</p>
                    <p><b>Emergency Obstetric Care:</b> <br /> Available 24/7</p>
-                <button className="appointment-btn">Book Appointment Online</button>
+                <a href="/contact" className="appointment-btn">Book Appointment Online </a>
               </div>
             </div>
           </div>
@@ -607,13 +651,16 @@ const toggleFAQ = (index) => {
         ))}
       </section>
 
-       <section className="related-services">
+      
+    <section className="related-services">
       <h2 className="related-title">Related Services You Might Need</h2>
-
+    
       <div className="related-grid">
         {relatedServices.map((service, index) => (
           <div className="related-card" key={index}>
-            <div className="service-icon">{service.icon}</div>
+            <div className="service-icon">
+              <FontAwesomeIcon icon={service.icon} />
+            </div>
             <h3>{service.title}</h3>
             <p>{service.desc}</p>
             <div className="arrow">→</div>
@@ -627,10 +674,8 @@ const toggleFAQ = (index) => {
         <h1>
           Prolife Hospital —  Expert pregnancy care in Chennai for your growing family.
         </h1>
-
-        <button className="lab-btn">
-          Start Your Journey Today →
-        </button>
+        <div><a href="/contact" className="lab-btn">Start Your Journey Today →</a></div>
+        
       </div>
     </section>
     </div>

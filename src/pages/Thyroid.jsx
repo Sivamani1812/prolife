@@ -21,32 +21,38 @@ import { FaCheckCircle } from "react-icons/fa";
 
 const Thyroid = () => {
 
-const SERVICES = [
-  {
-    title: "Maternity & Gynecology",
-    desc:
-      "Thyroid health significantly impacts fertility, pregnancy, and women's health across all life stages. Our integrated maternity care ensures your thyroid is optimally managed during these crucial times.",
-    icon: faUserMd,
-  },
-  {
-    title: "General Medicine",
-    desc:
-      "Our general physicians provide comprehensive health management, addressing thyroid disorders alongside other chronic conditions like diabetes and heart disease.",
-    icon: faBaby,
-  },
-  {
-    title: "Diagnostic Labs",
-    desc:
-      "Quick, accurate testing is essential for thyroid management. Our advanced laboratories deliver reliable results, often within the same day.",
-    icon: faHeartbeat,
-  },
-  {
-    title: "Pediatrics",
-    desc:
-      "Children can also develop thyroid disorders. Our pediatric team provides gentle, age-appropriate care for young patients with thyroid concerns.",
-    icon: faMicroscope,
-  },
-];
+ const SERVICES = [
+    {
+      title: "General Medicine",
+      desc:
+        " Comprehensive health assessments and management of chronic conditions that often accompany hypertension, including diabetes, high cholesterol, and thyroid disorders.",
+      icon: faUserMd,
+    },
+    {
+      title: "Cardiology Consultations",
+      desc:
+        " Specialized cardiovascular evaluations for patients with complex hypertension or those who have experienced heart-related complications.",
+      icon: faBaby,
+    },
+    {
+      title: "Dietary Counseling",
+      desc:
+        "Nutritional guidance specifically designed to support blood pressure management through heart-healthy eating patterns like the DASH diet.",
+      icon: faHeartbeat,
+    },
+    {
+      title: "Diabetes Management",
+      desc:
+        " Integrated care for patients managing both diabetes and hypertension, as these conditions often occur together and require coordinated treatment.",
+      icon: faMicroscope,
+    },
+    {
+      title: "Kidney Disease Management",
+      desc:
+        " Specialized care for hypertension related to kidney disease or for protecting kidney function in hypertensive patients through our urology and general medicine departments.",
+      icon: faStethoscope,
+    },
+  ];
 
 const containerRef = useRef(null);
 
@@ -359,9 +365,10 @@ const cardVariants = {
           className="story-hero-image"
         />
         <div className="story-hero-overlay">
-          <h1 className="story-hero-title">Best Thyroid Disorders Treatment in Chennai</h1>
+          
         </div>
       </div>
+      <h1 className="story-hero-title1">Best Thyroid Disorders Treatment in Chennai</h1>
 
       {/* PLAN PREGNANCY SECTION */}
       <section className="plan-pregnancy-section">
@@ -369,8 +376,8 @@ const cardVariants = {
 
           <div className="plan-left">
             <h2 className="plan-title">
-              Comprehensive Thyroid Care That Puts <br />
-              <span>Your Health First</span>
+              Comprehensive Thyroid Care That Puts 
+              <span> Your Health First</span>
             </h2>
 
             <p className="plan-description">
@@ -387,7 +394,7 @@ const cardVariants = {
 
           <div className="plan-right">
             <img
-              src="/images/img/pre-pregnancy1.jpg"
+              src="/images/img/thyroid2.jpg"
               alt="Pre Pregnancy Consultation"
             />
           </div>
@@ -508,40 +515,74 @@ const cardVariants = {
         </div>
 
         <div className="why-cta">
-          <a href="#" className="why-btn">Schedule Your Visit</a>
+          <a href="/contact" className="why-btn">Schedule Your Visit</a>
         </div>
 
       </div>
     </section>
 
-     <section className="doctor-section">
-      <div className="doctor-container">
+     <section className="eds-section">
+        <div className="eds-container">
 
-        <h2 className="doctor-title">Meet Our Thyroid Specialists in Chennai</h2>
-        <p className="doctor-subtitle">
-          Your health deserves experienced, compassionate professionals who stay updated with 
-          the latest advances in thyroid care.
-        </p>
+          <div className="eds-header">
+            <h2>Meet Our Thyroid Specialists in Chennai</h2>
+            <p>Skilled Hands, Compassionate Hearts</p>
+          </div>
 
-        <div className="doctor-grid">
-          {doctors.map((doc, index) => (
-            <div className="doctor-card" key={index}>
-              <div className="doctor-img">
-                <img src={doc.img} alt={doc.name} />
-              </div>
-              <h3 className="doctor-name">{doc.name}</h3>
-              <p className="doctor-role">{doc.role}</p>
-              <p className="doctor-desc">{doc.desc}</p>
+          {/* Founder Highlight */}
+          <div className="eds-founder-highlight">
+            <div className="eds-founder-img">
+              <img src="./images/img/d11.png" alt="Dr. Thamarai" />
             </div>
-          ))}
-        </div>
 
-        <div className="doctor-cta">
-          <a href="#" className="doctor-btn">Talk to Specialists</a>
-        </div>
+            <div className="eds-founder-content">
+              <span className="eds-founder-tag">Founder</span>
+              <h3>Dr. Thamarai</h3>
+              <h4>Maternal – Fetal Medicine Specialist</h4>
+              <p>
+                Founder of our hospital and  Dr. Thamarai's patient-centered approach combines clinical excellence with genuine compassion, making her a trusted partner for women navigating thyroid concerns alongside gynecological health.
+              </p>
+            </div>
+          </div>
 
+          <div className="eds-grid">
+
+            <div className="eds-card">
+              <span className="eds-bar"></span>
+              <h3>Dr. Sathya Moorthy - General Physician</h3>
+              <p>
+                With extensive experience in managing chronic conditions, Dr. Sathya Moorthy brings a holistic approach to thyroid care, ensuring that all aspects of your health are considered in your treatment plan.
+              </p>
+            </div>
+
+            <div className="eds-card">
+              <span className="eds-bar"></span>
+              <h3>Dr. Sujitha R – Senior Gynecologist</h3>
+              <p>
+                Specializing in women's reproductive health, Dr. Sujitha R expertly manages thyroid conditions during pregnancy, postpartum, and throughout different life stages, ensuring both mother and baby remain healthy.
+              </p>
+            </div>
+
+
+
+            <div className="eds-card">
+              <span className="eds-bar"></span>
+              <h3>Dr. Varshini – Fertility Specialist</h3>
+              <p>
+                 Known for her thorough approach and clear communication, Dr. Varshini helps patients understand their thyroid conditions and actively participate in their treatment decisions.
+              </p>
+            </div>
+          </div>
+          <div className="consultation-cta">
+            <a href="/contact" className="cta-btn">
+              Have specific questions for our doctors? Book a Consultation →
+            </a>
+          </div>
+
+      
       </div>
-    </section>
+      </section>
+
 
      <section className="tt-section" aria-labelledby="tt-heading">
       <div className="tt-inner">
@@ -739,7 +780,7 @@ const cardVariants = {
         <p className="sub-title">Real Stories, Real Results</p>
         <p>What Our Patients Say</p>
         <div className="google-rating">
-          ⭐⭐⭐⭐⭐ <span>5/5 Google Rating</span>
+          <span>4.5/5 Google Rating</span>
         </div>
 
         <div className="reviews-container">
@@ -758,12 +799,12 @@ const cardVariants = {
         </div>
 
         <a
-          href="https://g.page/r/CS9733eotKhCEBM/review"
+          href="https://www.justdial.com/Chennai/Prolife-Maternity-and-Fertility-Hospital-Near-DLF-LT-and-Chennai-Trade-Centre-Manapakkam/044PXX44-XX44-191211174423-E9K1_BZDET/reviews"
           target="_blank"
           rel="noreferrer"
           className="see-more-btn"
         >
-          ⭐ Read More Success Stories
+          Read More Success Stories
         </a>
       </section>
 
@@ -781,39 +822,35 @@ const cardVariants = {
         ))}
       </section>
 
-      <section className="rs-section" aria-labelledby="rs-heading">
-      <div className="rs-wrap">
-        <h2 id="rs-heading" className="rs-title">
-          Related Services You Might Need
-        </h2>
+<section className="rs-section" aria-labelledby="rs-heading">
+        <div className="rs-wrap">
+          <h2 id="rs-heading" className="rs-title">
+            Related Services You Might Be Interested In
+          </h2>
 
-        <p className="rs-sub">
-          Your health is interconnected, and thyroid disorders can affect or be affected by other conditions. Explore our comprehensive services:
-        </p>
+          <div className="rs-grid" ref={containerRef}>
+            {SERVICES.map((s, i) => (
+              <article key={i} className={`rs-card rs-card-${i % 5}`}>
+                <div className="rs-icon">
+                  <FontAwesomeIcon icon={s.icon} />
+                </div>
 
-        <div className="rs-grid" ref={containerRef}>
-          {SERVICES.map((s, i) => (
-            <article key={i} className={`rs-card rs-card-${i % 5}`}>
-              <div className="rs-icon">
-                <FontAwesomeIcon icon={s.icon} />
-              </div>
+                <div className="rs-body">
+                  <h3 className="rs-head">{s.title}</h3>
+                   <p className="rs-desc">{s.desc}</p> 
+                </div>
 
-              <div className="rs-body">
-                <h3 className="rs-head">{s.title}</h3>
-                <p className="rs-desc">{s.desc}</p>
-              </div>
-
-              <button
-                className="rs-cta"
-                aria-label={`Learn more about ${s.title}`}
-              >
-                Learn More →
-              </button>
-            </article>
-          ))}
+                <button
+                  className="rs-cta"
+                  aria-label={`Learn more about ${s.title}`}
+                >
+                  Learn More →
+                </button>
+              </article>
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
    <section className="thyroid-cta">
       <div className="container">

@@ -16,43 +16,17 @@ import {
   faMicroscope,
   faStethoscope,
 } from "@fortawesome/free-solid-svg-icons";
+import {
+  faHeartPulse,
+  faPersonPregnant,
+  faDna,
+  faDroplet,
+} from "@fortawesome/free-solid-svg-icons";
 import { FaCheckCircle } from "react-icons/fa";
 
-const PrePregnancy = () => {
+const Emergency = () => {
 
-  const SERVICES = [
-    {
-      title: "High-Risk Pregnancy Management",
-      desc:
-        "Comprehensive care for pregnancies with complications, medical conditions, or previous pregnancy losses.",
-      icon: faUserMd,
-    },
-    {
-      title: "Pre-Pregnancy Counselling",
-      desc:
-        "Plan your pregnancy with risk assessment and health optimization before conceiving.",
-      icon: faBaby,
-    },
-    {
-      title: "Pregnancy Care",
-      desc:
-        "Complete antenatal care with regular monitoring, scans, and delivery support.",
-      icon: faHeartbeat,
-    },
-    {
-      title: "Fertility Treatment",
-      desc:
-        "If you're struggling to conceive, our fertility specialists help you start your family.",
-      icon: faMicroscope,
-    },
-    {
-      title: "PCOS Management",
-      desc:
-        "Treatment for polycystic ovary syndrome affecting pregnancy and hormonal health.",
-      icon: faStethoscope,
-    },
-  ];
-
+ 
   const containerRef = useRef(null);
 
   useEffect(() => {
@@ -75,6 +49,40 @@ const PrePregnancy = () => {
 
     return () => observer.disconnect();
   }, []);
+
+
+   const relatedServices = [
+      {
+        title: "High-Risk Pregnancy Management",
+        desc: " Specialized monitoring and care for pregnancies with complications requiring potential emergency intervention.",
+        icon: faBaby,
+      },
+      {
+        title: "Pregnancy Care in Chennai",
+        desc: "  Complete antenatal services with regular monitoring to catch problems early before emergencies develop.",
+        icon: faPersonPregnant,
+      },
+      {
+        title: "Normal Delivery Services",
+        desc: " Vaginal birth support with emergency LSCS backup if complications arise unexpectedly during labor.",
+        icon: faHeartPulse,
+      },
+      {
+        title: "NICU & Pediatric Care",
+        desc: "Specialized newborn support for babies needing extra care after emergency delivery.",
+        icon: faDna,
+      },
+      {
+        title: "Postnatal Care",
+        desc: "  Recovery support and wound care after cesarean delivery, ensuring healthy healing.",
+        icon: faDroplet,
+      },
+      {
+        title: "Pre-Pregnancy Counselling",
+        desc: " Plan your pregnancy with medical guidance, especially important if previous emergencies occurred.",
+        icon: faBaby,
+      },
+    ];
 
   const features = [
     {
@@ -143,7 +151,7 @@ const PrePregnancy = () => {
       name: "Dr. Sujitha R",
       title: "Senior Gynecologist",
       desc: "15+ years managing normal and complicated pregnancies. Known for her patient-centered approach that ensures mothers feel heard and supported.",
-      img: "/images/doctors/sujitha.jpg", // just place image in public folder
+      img: "/images/doctors/sujitha.jpg",
     },
     {
       name: "Dr. Thamarai",
@@ -160,7 +168,7 @@ const PrePregnancy = () => {
     {
       name: "Dr. Uma Maheshwari",
       title: "Pediatrician",
-      desc: "Newborn care specialist. Baby’s first medical assessment, vaccination plan & parental support.",
+      desc: "Newborn care specialist. Baby's first medical assessment, vaccination plan & parental support.",
       img: "/images/doctors/uma.jpg",
     },
   ];
@@ -205,31 +213,34 @@ const PrePregnancy = () => {
   ];
 
   const eligibilityList = [
-    " Prevents Second-Trimester Loss — Holds cervix closed when it would otherwise open prematurely",
-    "Allows Baby to Reach Full Term — Gives your pregnancy the time needed for healthy development",
-    " Reduces Preterm Birth Risk — Even if delivery happens slightly early, cerclage significantly extends pregnancy duration",
-    "Protects Future Pregnancies — Can be placed in subsequent pregnancies if needed",
-    "Provides Peace of Mind — Knowing your cervix is reinforced reduces constant worry",
-    " Improves Success Rates — Women with previous losses often carry to term successfully after cerclage",
-
+    "  500+ Emergency LSCS Performed – Extensive experience with urgent cesarean deliveries saves lives through practiced efficiency.",
+    "30-Minute Response Time – From decision to delivery, we meet critical timeframes consistently.",
+    " 24/7 Specialist Availability – Obstetricians, anesthesiologists, and pediatricians always on-site, never on-call from home.",
+    " Zero Equipment Delays – Operation theaters remain prepared with all necessary instruments, medications, and monitoring equipment ready immediately.",
+    " In-House Blood Bank – Immediate access to blood products if transfusion becomes necessary during or after surgery.",
+    "  Modern Surgical Facilities – Infection-controlled modular OTs with advanced equipment ensuring best hospital for emergency C-section in Chennai standards.",
+    " Complete Pediatric Support – Newborn assessment team ready for babies needing extra care after emergency delivery.",
+    "Transparent Pricing – Emergency situations shouldn't include billing surprises. We provide clear cost information upfront.",
+    " Two Convenient Locations – Manapakkam and Mugalivakkam facilities both equipped for emergency obstetric surgery.",
+    " Insurance Partnership – We work with major insurance providers to minimize your financial stress during medical emergencies.",
   ];
 
   const reviewsData = [
     {
-      text: "After losing my baby at 20 weeks, I was terrified to get pregnant again. Dr. Sujitha placed a cerclage at 14 weeks in my next pregnancy. I was monitored closely, followed every instruction, and delivered a healthy boy at 38 weeks. She gave it to my family.",
-      name: " Lakshmi P., Porur",
+      text: "At 3 AM, my baby's heartbeat dropped suddenly. Within 20 minutes, I was in surgery. Dr. Sujitha explained everything quickly, the anesthesia team was already there, and my daughter was delivered safely. The speed of their response saved her life. I can't thank Prolife enough",
+      name: " Lakshmi V., Manapakkam",
       avatar: "L",
       rating: 5
     },
     {
-      text: "My cervix started shortening at 18 weeks during my twin pregnancy. Emergency cerclage saved my babies. The team acted fast, explained everything, and monitored me constantly. My twins are now healthy toddlers because of Prolife.",
-      name: "Deepa M., Manapakkam",
+      text: "I planned a normal delivery, but my blood pressure spiked dangerously during labor. The team decided on emergency LSCS immediately. Everything happened so fast but so smoothly. Dr. Thamarai kept me calm, explained each step, and my baby boy was born healthy. The pediatrician checked him right away. I felt completely safe.",
+      name: " Divya K., Porur",
       avatar: "D",
       rating: 5
     },
     {
-      text: "I'd had three cone biopsies for cervical issues and was told pregnancy would be difficult. Dr. Thamarai placed a cerclage before my cervix could weaken. Regular scans, bed rest when needed, and her expertise—I made it to 37 weeks and had a normal delivery.",
-      name: "Priya k., Ramapuram",
+      text: "Cord prolapse at 38 weeks—terrifying words. But Prolife's team moved like a well-oiled machine. Surgery started within minutes. My husband could stay with me, and despite the emergency, I felt cared for, not rushed. My son is perfect. Dr. Varshini's quick decision-making made all the difference",
+      name: " Preethi S., Ramapuram",
       avatar: "P",
       rating: 5
     }
@@ -238,59 +249,64 @@ const PrePregnancy = () => {
   const [openFAQ, setOpenFAQ] = useState(null);
   const faqData = [
     {
-      question: "When should cervical cerclage be placed?",
+      question: "When is an emergency LSCS needed?",
       answer:
-        "Typically between 12-14 weeks in planned cases. Emergency cerclage can be placed up to 24 weeks if the cervix starts opening unexpectedly. Earlier placement usually has better outcomes."
+        "When labour becomes unsafe for the mother or baby. Common reasons include fetal distress, cord problems, heavy bleeding, labour that stops progressing, or sudden health issues. Your doctor decides based on continuous monitoring."
     },
     {
-      question: "Does the procedure hurt?",
+      question: "How fast can you perform it?",
       answer:
-        "You'll receive spinal or general anesthesia—you won't feel pain during placement. Mild cramping afterward is normal and manageable with medication."
+        " We perform emergency C-sections within 30 minutes of the decision—often faster. Our team and operation theaters are ready 24/7, so there are no delays."
     },
     {
-      question: "How long does cerclage placement take?",
+      question: "Will I be awake during the surgery?",
       answer:
-        "Usually 20-30 minutes. You'll spend additional time in recovery for monitoring before going home the same day."
+        "Usually yes. Most emergency LSCS procedures use spinal or epidural anesthesia, so you stay awake but feel no pain. General anesthesia is used only in extreme situations."
     },
     {
-      question: "What restrictions will I have after cerclage?",
+      question: "Is emergency LSCS riskier?",
       answer:
-        " Pelvic rest (no intercourse), avoiding heavy lifting, reducing strenuous activity. Some women need modified bed rest depending on their situation. We give you clear, specific guidelines."
+        "It can carry slightly more risk because complications already exist, but it is much safer than continuing a dangerous labour. Our experienced team performs the surgery with full care and precision."
     },
     {
-      question: "Will I need bed rest for the entire pregnancy?",
+      question: "Can my husband be with me?",
       answer:
-        "Not necessarily. Some women continue normal activities with minor modifications. Others need more rest based on cervical changes. We monitor and adjust recommendations throughout pregnancy."
+        "Yes, if regional anesthesia is used and the situation is stable. In very urgent cases or when general anesthesia is required, partners may need to wait outside but receive regular updates."
     },
     {
-      question: "When is the cerclage removed?",
+      question: "What happens to my baby after delivery?",
       answer:
-        "Usually around 36-37 weeks, or earlier if labor starts. Removal is quick, done in the office without anesthesia in most cases."
+        "A pediatrician checks your baby immediately. If stable, skin-to-skin contact begins right away. If extra support is needed, our neonatal team provides quick care."
     },
     {
-      question: "Can I have a normal delivery after cerclage?",
+      question: "How long will I stay in the hospital?",
       answer:
-        "Yes. Many women deliver vaginally after cerclage removal. Cesarean is only needed if other medical reasons require it."
+        " Usually 3–4 days, similar to planned C-sections. You may stay longer if extra monitoring is needed."
     },
     {
-      question: "What are the risks of cervical cerclage?",
+      question: "Will I need a blood transfusion?",
       answer:
-        "Risks are low but include bleeding, infection, premature rupture of membranes, or preterm labor. We monitor closely to catch and address issues early."
+        " Most mothers don’t need one, but our in-house blood bank is ready if needed. Your doctor will check beforehand if you are at higher risk."
     },
     {
-      question: "How much does cervical cerclage cost?",
+      question: "Can I breastfeed after an emergency LSCS?",
       answer:
-        "Cost varies based on procedure type and insurance coverage. Contact our billing team for specific pricing. Many insurance plans cover cerclage for documented medical need."
+        " Yes. Breastfeeding usually starts within 1–2 hours after surgery. Our nurses will assist you."
     },
     {
-      question: "What if my cerclage fails?",
+      question: "How much does it cost?",
       answer:
-        "While rare, if the cervix continues opening despite cerclage, we manage your situation with bed rest, medications, or early delivery if necessary. Your safety and baby's wellbeing remain our priority."
+        " Costs depend on the situation, medications, and hospital stay. We provide clear estimates and assist with insurance."
     },
     {
-      question: "Can I have cerclage in future pregnancies?",
+      question: "Can I have future pregnancies?",
       answer:
-        "Yes. If you needed cerclage once, you'll likely need it in subsequent pregnancies. We can place it early as a preventive measure."
+        " Yes. The lower-segment incision heals well, and many women have healthy future pregnancies, including the option of VBAC."
+    },
+    {
+      question: "What if I go into labour at night or on weekends?",
+      answer:
+        " Our team is available 24/7. Doctors, anesthetists, pediatricians, and nurses are always in the hospital and ready for emergencies."
     },
   ];
   const toggleFAQ = (index) => {
@@ -321,7 +337,7 @@ const PrePregnancy = () => {
 
           <div className="plan-left">
             <h2 className="plan-title">
-              Expert Emergency C-Section Care at Prolife Hospital
+              Expert Emergency C-Section Care at <span> PROLIFE HOSPITAL</span> 
             </h2>
 
             <p className="plan-description">
@@ -341,7 +357,7 @@ const PrePregnancy = () => {
 
           <div className="plan-right">
             <img
-              src="/images/img/pre-pregnancy1.jpg"
+              src="/images/img/emergency1.jpg"
               alt="Pre Pregnancy Consultation"
             />
           </div>
@@ -353,7 +369,7 @@ const PrePregnancy = () => {
         <div className="plan-container">
           <div className="plan-right">
             <img
-              src="/images/img/pre-pregnancy2.jpg"
+              src="/images/img/emergency2.jpg"
               alt="Pre Pregnancy Consultation"
             />
           </div>
@@ -402,7 +418,7 @@ const PrePregnancy = () => {
             </li>
 
             <li>
-              <strong>Fast “Decision to Delivery” Time</strong>
+              <strong>Fast Decision to Delivery Time</strong>
               <p>
                 Emergency C-sections must be done within 30 minutes for the safety of mother and baby. At Prolife Hospital, we consistently achieve this because our team and systems are prepared for urgent situations.
               </p>
@@ -416,23 +432,23 @@ const PrePregnancy = () => {
             </li>
 
             <li>
-              <strong>Advanced Operation Theaters</strong> <br />
+              <strong>Advanced Operation Theaters</strong> 
               <p>  We have modern modular OTs equipped with:
-                <li>Advanced anesthesia machines</li>
-                <li>Continuous fetal monitoring</li>
-                <li>Immediate blood bank access</li>
-                <li>Newborn resuscitation equipment</li>
-                <li>Infection-controlled surroundings</li>
+           <br />   ● Advanced anesthesia machines
+           <br />    ● Continuous fetal monitoring
+            <br />    ● Immediate blood bank access
+            <br />   ● Newborn resuscitation equipment
+             <br />    ●  Infection-controlled surroundings
               </p>
             </li>
 
             <li>
-              <strong>Complete Emergency Support</strong><br />
+              <strong>Complete Emergency Support</strong>
               <p> We provide full support during emergencies, including:
-                <li>In-house blood bank</li>
-                <li>ICU for mothers</li>
-                <li>NICU for newborns</li>
-                <li>24/7 lab and scan facilities</li>
+            <br />   ●  In-house blood bank
+            <br />   ●  ICU for mothers
+            <br />   ●  NICU for newborns
+            <br />   ●  24/7 lab and scan facilities
               </p>
             </li>
             <li>
@@ -443,18 +459,18 @@ const PrePregnancy = () => {
             </li>
           </ul>
 
-          <a href="/reviews" className="choose-btn">
+          <a href="/contact" className="choose-btn">
             Emergency ? →
           </a>
         </div>
 
-        <div className="choose-img-wrapper">
+        {/* <div className="choose-img-wrapper">
           <img
-            src="/images/img/u7.webp"
+            src="/images/img/emergency3.jpg"
             alt="Pregnancy Care at Prolife"
             className="choose-img"
           />
-        </div>
+        </div> */}
       </section>
 
       <section className="timeline-section">
@@ -464,7 +480,7 @@ const PrePregnancy = () => {
 
           <div className="timeline-card">
             <div className="timeline-header">
-              <span className="trimester-tag">Immediate Assessment (First 5 Minutes)</span>
+              <span className="trimester-tag">Immediate Assessment ( 5 Minutes)</span>
             </div>
             <ul>
               <li>Your condition evaluation with vital signs and baby's heart rate monitoring through continuous fetal monitoring. Our obstetrician reviews your labor progress, examines complications, and determines if emergency LSCS is the safest option.</li>
@@ -488,89 +504,227 @@ const PrePregnancy = () => {
           </div>
            <div className="timeline-card">
             <div className="timeline-header">
-              <span className="trimester-tag">Rapid Preparation (Next 10 Minutes)</span>
+              <span className="trimester-tag">Immediate Post-Operative Care</span>
             </div>
             <ul>
-              <li>Consent process with clear explanation of why surgery is needed, anesthesia team assessment and preparation for spinal or epidural anesthesia, IV line placement for medications and fluids, pre-operative blood work if time permits, and catheter insertion and surgical site preparation.</li>
+              <li>Recovery room monitoring for 2-4 hours, pain management with medications, baby placed on your chest for bonding when medically stable, breastfeeding assistance as soon as you're ready, and vital signs monitoring ensuring stable recovery.</li>
             </ul>
           </div>
            <div className="timeline-card">
             <div className="timeline-header">
-              <span className="trimester-tag">Rapid Preparation (Next 10 Minutes)</span>
+              <span className="trimester-tag">Hospital Stay & Follow-Up</span>
             </div>
             <ul>
-              <li>Consent process with clear explanation of why surgery is needed, anesthesia team assessment and preparation for spinal or epidural anesthesia, IV line placement for medications and fluids, pre-operative blood work if time permits, and catheter insertion and surgical site preparation.</li>
+              <li>Typical 3-4 day hospital stay with monitoring, wound care and infection prevention, mobility encouragement within 6-8 hours, discharge planning with home care instructions, and follow-up appointment scheduled for 7-10 days.</li>
             </ul>
           </div>
         </div>
 
         <div className="timeline-cta">
           <a href="/contact" className="cta-btn">
-            Not Sure If You Need It? Consult Our Doctors →
+             Questions About Emergency LSCS? Consult Our Specialists →
           </a>
         </div>
       </section>
 
+      <section className="assist-section">
+      <div className="assist-container">
 
+        <div className="assist-header">
+          <h2>How Emergency LSCS Helps You</h2>
+        </div>
 
+        <div className="assist-timeline">
 
+          <div className="assist-step">
+            <div className="assist-icon"><i className="fa-solid fa-comments"></i></div>
+            <div className="assist-content">
+              <h3>Saves Lives in Critical Moments</h3>
+              <p> When a normal delivery becomes unsafe, an emergency C-section allows doctors to deliver the baby quickly and prevent serious risks like lack of oxygen, heavy bleeding, or birth injuries.</p>
+            </div>
+          </div>
 
+          <div className="assist-step">
+            <div className="assist-icon"><i className="fa-solid fa-heart-pulse"></i></div>
+            <div className="assist-content">
+              <h3>Solves Complications Immediately</h3>
+              <p> Issues like fetal distress, cord prolapse, heavy bleeding, or labour that has stopped progressing are handled within minutes to protect both mother and baby.</p>
+            </div>
+          </div>
 
+          <div className="assist-step">
+            <div className="assist-icon"><i className="fa-solid fa-brain"></i></div>
+            <div className="assist-content">
+              <h3>Supports Future Pregnancies</h3>
+              <p> Modern LSCS uses a lower uterine incision that heals well and reduces risks in future pregnancies.</p>
+            </div>
+          </div>
 
+          <div className="assist-step">
+            <div className="assist-icon"><i className="fa-solid fa-baby"></i></div>
+            <div className="assist-content">
+              <h3>Safe and Expert Care</h3>
+              <p>Even though it’s urgent, emergency LSCS is performed with the same skill and care as a planned surgery. Mothers receive expert anesthesia, safe surgery, and newborns get immediate pediatric attention.</p>
+            </div>
+          </div>
+
+          <div className="assist-step">
+            <div className="assist-icon"><i className="fa-solid fa-heart"></i></div>
+            <div className="assist-content">
+              <h3>Gives Peace of Mind</h3>
+              <p> Knowing a skilled team is ready 24/7 helps mothers feel safe throughout labour, even if complications arise suddenly.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      </section>
 
       <section className="services-section">
-        <h2 className="services-title">What We Do When You Come to Prolife</h2>
+        <h2 className="services-title">Who Needs Emergency LSCS?</h2>
 
         <div className="services-grid">
           {/* Regular Antenatal Checkups */}
           <div className="service-card">
-            <h3>Initial Consultation & Risk Assessment</h3>
-            <p> We review your pregnancy history in detail—previous miscarriages, preterm births, cervical procedures, or genetic factors. Ultrasound measures your cervical length and checks for early changes.</p>
+            <h3>Mothers Experiencing Fetal Distress</h3>
+            <p>Sudden drops in the baby's heart rate, meconium-stained amniotic fluid indicating stress, and reduced oxygen supply to the baby require immediate action.</p>
           </div>
 
           {/* Ultrasound Scans */}
           <div className="service-card">
-            <h3>Pre-Procedure Preparation</h3>
-            <p>Complete health evaluation and infection screening. Discussion about procedure timing, anesthesia options, and what to expect. Answering every question until you feel confident.</p>
+            <h3>Complications During Labor</h3>
+            <p>Umbilical cord prolapse where the cord slips through the cervix before the baby, placental abruption causing the placenta to separate prematurely, obstructed labor when the baby can't move through the birth canal, and uterine rupture threatening both lives.</p>
           </div>
 
           {/* Complications */}
           <div className="service-card">
-            <h3>Cerclage Placement Procédure</h3>
-            <p>Performed under spinal or general anesthesia in our modern operation theater. Takes 20-30 minutes on average. Strong surgical stitches reinforce the cervix opening. You rest in recovery for observation before going home.</p>
+            <h3>High-Risk Pregnancy Emergencies</h3>
+            <p>Severe preeclampsia or eclampsia with dangerously high blood pressure, uncontrolled gestational diabetes affecting baby's health, multiple pregnancy complications with twins or triplets, and placenta previa with bleeding episodes.</p>
           </div>
 
           {/* Childbirth Preparation */}
           <div className="service-card">
-            <h3>Ongoing Pregnancy Monitoring</h3>
-            <p>Regular checkups tracking cervical length and cerclage position. Ultrasound scans ensuring baby's healthy growth. Addressing concerns immediately—never making you wait.</p>
+            <h3>Failed Labor Progression</h3>
+            <p>Prolonged labor exceeding safe timeframes, cervix not dilating despite strong contractions, baby's position preventing vaginal delivery, and exhaustion preventing effective pushing.</p>
           </div>
 
           {/* Delivery Support */}
           <div className="service-card">
-            <h3>Activity & Lifestyle Guidance</h3>
-            <p>Clear instructions about physical restrictions, work modifications, and warning signs to watch for. Managing your anxiety about daily activities.</p>
+            <h3>Previous Surgical History</h3>
+            <p>Previous cesarean attempting vaginal birth (VBAC) with complications, uterine surgery or fibroid removal creating rupture risk, and classical cesarean scars more prone to separation.</p>
           </div>
 
           {/* Postpartum Care */}
           <div className="service-card">
-            <h3>Delivery Planning</h3>
-            <p>When it's time for delivery, we remove the cerclage (usually around 36-37 weeks). Labor can proceed naturally, or we schedule a cesarean if needed.</p>
+            <h3>Unexpected Medical Emergencies</h3>
+            <p>Maternal hemorrhage during labor, sudden severe high blood pressure, maternal heart or breathing problems, and infections threatening mother or baby.</p>
           </div>
         </div>
 
         <div className="service-cta">
           <a href="/contact" className="cta-btn">
-            Schedule Your Risk Assessment  →
+            Concerned About Your Delivery? Talk to Our Obstetricians  →
           </a>
         </div>
       </section>
 
+      <section className="cerclage-team-section" id="team">
+        <div className="container">
+          <h2 className="section-title">Meet Our Cervical Cerclage Team</h2>
+
+
+          {/* Founder Highlight */}
+          <div className="eds-founder-highlight">
+            <div className="eds-founder-img">
+              <img src="./images/img/d11.png" alt="Dr. Thamarai" />
+            </div>
+
+            <div className="eds-founder-content">
+              <span className="eds-founder-tag">Founder</span>
+              <h3>Dr. Thamarai</h3>
+              <h4>High-Risk Pregnancy Specialist</h4>
+              <p>
+                Founder of our hospital and  Expert in high-risk pregnancies, including diabetes, hypertension, and multiple pregnancies. Skilled in managing complex emergency C-sections, even in mothers with previous uterine surgeries.
+              </p>
+            </div>
+          </div>
+
+
+          <div className="team-grid">
+            {/* Dr. Sujitha */}
+            <div className="team-card">
+              <h3 className="doctor-name">Dr. Sujitha R</h3>
+              <p className="designation">Senior Gynecologist & Obstetrician</p>
+              <p className="doctor-desc">
+                 With 15+ years of experience, she has handled hundreds of emergency C-sections. Known for quick decision-making and keeping families informed, she is available 24/7 for obstetric emergencies.
+              </p>
+            </div>
+
+
+            {/* Dr. Varshini */}
+            <div className="team-card">
+              <h3 className="doctor-name">Dr. Varshini</h3>
+              <p className="designation">Obstetrician</p>
+              <p className="doctor-desc">
+                Recognizes early warning signs and acts quickly during emergencies. Combines modern obstetric care with kindness and strong emotional support for families.
+              </p>
+            </div>
+
+
+            {/* Anesthesiology Team */}
+            <div className="team-card">
+              <h3 className="doctor-name">Dr. Shalini </h3>
+              <p className="designation">Senior Anesthetist</p>
+              <p className="doctor-desc">
+               Provides fast and safe anesthesia for emergency C-sections. Specializes in spinal and epidural methods while closely monitoring the mother’s safety throughout surgery.
+              </p>
+            </div>
+
+
+             <div className="team-card">
+              <h3 className="doctor-name">Dr. Nithya Priyan </h3>
+              <p className="designation">Anesthetist</p>
+              <p className="doctor-desc">
+               Experienced in high-risk obstetric anesthesia. Works smoothly with the surgical team and helps mothers stay calm during urgent procedures.
+              </p>
+            </div>
+
+             <div className="team-card">
+              <h3 className="doctor-name">Dr. Hari Prakash</h3>
+              <p className="designation">Anesthetist</p>
+              <p className="doctor-desc">
+               Handles complex anesthesia needs, especially when general anesthesia is required. Ensures safe pain management and smooth surgery.
+              </p>
+            </div>
+
+             <div className="team-card">
+              <h3 className="doctor-name">Dr. Uma Maheshwari</h3>
+              <p className="designation"> Pediatrician</p>
+              <p className="doctor-desc">
+               Assesses the baby immediately after birth, provides resuscitation if needed, and coordinates NICU care for newborns requiring extra support.
+              </p>
+            </div>
+
+             <div className="team-card">
+              <h3 className="doctor-name">Dr. Paulia Devi</h3>
+              <p className="designation">General Surgeon</p>
+              <p className="doctor-desc">
+              Available for backup support during complicated cesarean cases or unexpected surgical challenges.
+              </p>
+            </div>
+          </div>
+
+          <div className="center-btn">
+            <button className="cta-btn"> <a href="/ourteam">Meet Our Complete Maternity Team</a> </button>
+          </div>
+        </div>
+      </section>
 
       <section className="eligibility-section">
         <div className="eligibility-container">
           <h2 className="eligibility-title">
-            How Cervical Cerclage <span> Helps You</span>
+            Why Choose Prolife Hospital for Emergency LSCS?
           </h2>
 
           <div className="eligibility-rows">
@@ -586,96 +740,18 @@ const PrePregnancy = () => {
 
           <div className="eligibility-cta">
             <a href="/contact" className="cta-button">
-              Talk to Our Cervical Cerclage Specialists →
+              Tour Our Emergency Facilities  →
             </a>
           </div>
         </div>
       </section>
 
-      
-
-
-      <section className="cerclage-team-section" id="team">
-        <div className="container">
-          <h2 className="section-title">Meet Our Cervical Cerclage Team</h2>
-
-
-          <div className="team-grid">
-            {/* Dr. Sujitha */}
-            <div className="team-card">
-              <h3 className="doctor-name">Dr. Sujitha R</h3>
-              <p className="designation">Senior Gynecologist & Obstetrician</p>
-              <p className="doctor-desc">
-                15+ years managing high-risk pregnancies and cervical complications. Has placed cerclages in hundreds of women—many who went on to deliver healthy babies after previous losses. Known for surgical precision and genuine compassion during anxious pregnancies.
-              </p>
-            </div>
-
-
-            {/* Dr. Thamarai */}
-            <div className="team-card">
-              <h3 className="doctor-name">Dr. Thamarai</h3>
-              <p className="designation">High-Risk Pregnancy Specialist</p>
-              <p className="doctor-desc">
-                Expert in complicated obstetric cases requiring surgical intervention. Specializes in managing pregnancies with cervical insufficiency, multiple gestations, and previous pregnancy losses. Patients trust her clinical judgment and calming presence.
-              </p>
-            </div>
-
-
-            {/* Dr. Varshini */}
-            <div className="team-card">
-              <h3 className="doctor-name">Dr. Varshini</h3>
-              <p className="designation">Obstetrician</p>
-              <p className="doctor-desc">
-                Skilled in both preventive and emergency cerclage placement. Combines modern obstetric techniques with individualized patient care. Particularly attentive to first-time mothers navigating high-risk pregnancies.
-              </p>
-            </div>
-
-
-            {/* Anesthesiology Team */}
-            <div className="team-card">
-              <h3 className="doctor-name">Anesthesiology Team</h3>
-              <p className="designation">
-                Dr. Hari Prakash | Dr. Shalini | Dr. Nithya Priyan
-              </p>
-              <p className="doctor-desc">
-                Ensure comfortable, pain-free procedures with expert anesthesia administration. Monitor patient safety throughout surgery and recovery.
-              </p>
-            </div>
-          </div>
-
-
-          <div className="center-btn">
-            <button className="cta-btn">Book Consultation With Our Specialists</button>
-          </div>
-        </div>
-      </section>
-
-      <section className="why-prolife-section">
-        <div className="wp-container">
-          <h2 className="wp-title"><strong>Why Choose Prolife Hospital for Cervical Cerclage?</strong></h2>
-
-          <div className="wp-grid fade-up">
-            <div className="wp-item slide-in-left">✓ Proven Track Record — Hundreds of successful cerclages leading to healthy deliveries</div>
-            <div className="wp-item slide-in-right">✓ Complete High-Risk Pregnancy Care — Full monitoring throughout pregnancy</div>
-            <div className="wp-item slide-in-left">✓ Modern Surgical Facilities — Advanced operation theaters & safety standards</div>
-            <div className="wp-item slide-in-right">✓ Experienced Surgical Team — Expertise in all cervical cerclage techniques</div>
-            <div className="wp-item slide-in-left">✓ 24/7 Emergency Response — Immediate care for any complications</div>
-            <div className="wp-item slide-in-right">✓ Transparent Communication — Clear guidance with no confusion</div>
-            <div className="wp-item slide-in-left">✓ Affordable Treatment — Quality care without financial stress</div>
-            <div className="wp-item slide-in-right">✓ Two Locations — Manapakkam & Mugalivakkam for easy access</div>
-          </div>
-
-          <div className="wp-btn-wrapper fade-up">
-            <button className="wp-cta-btn">Learn More About Our Hospital</button>
-          </div>
-        </div>
-      </section>
-
+    
       {/* Reviews Section */}
       <section className="reviews-section">
         <p className="sub-title">TESTIMONIALS</p>
         <div className="google-rating">
-          ⭐⭐⭐⭐⭐ <span>5/5 Google Rating</span>
+         <span>4.5/5 Google Rating</span>
         </div>
 
         <div className="reviews-container">
@@ -694,32 +770,13 @@ const PrePregnancy = () => {
         </div>
 
         <a
-          href="https://g.page/r/CS9733eotKhCEBM/review"
+          href="https://www.justdial.com/Chennai/Prolife-Maternity-and-Fertility-Hospital-Near-DLF-LT-and-Chennai-Trade-Centre-Manapakkam/044PXX44-XX44-191211174423-E9K1_BZDET/reviews"
           target="_blank"
           rel="noreferrer"
           className="see-more-btn"
         >
-          ⭐ Read More Success Stories
+          Read More Success Stories
         </a>
-      </section>
-
-      {/* Care Journey Section */}
-      <section className="journey-section">
-        <div className="journey-container">
-          <div className="journey-grid">
-            <div className="journey-image">
-              <div className="journey-content">
-                <h2>Book Your Cervical Cerclage Consultation</h2>
-                <p>Don't let cervical insufficiency take another pregnancy. Our specialists assess your situation and create a protection plan.</p>
-                <p> <b>Consultation Hours:</b> <br />
-                  Monday - Saturday: 9 AM - 8 PM <br />
-                  Sunday: 9 AM - 2 PM</p>
-                <p><b>Emergency Care:</b> <br /> Available 24/7</p>
-                <button className="appointment-btn">Book Appointment Online → </button>
-              </div>
-            </div>
-          </div>
-        </div>
       </section>
 
       <section className="faq-section">
@@ -736,49 +793,48 @@ const PrePregnancy = () => {
         ))}
       </section>
 
-      <section className="rs-section" aria-labelledby="rs-heading">
-        <div className="rs-wrap">
-          <h2 id="rs-heading" className="rs-title">
-            Related Services You Might Need
-          </h2>
-
-          <p className="rs-sub">
-            Care pathways and treatments tailored for maternal & newborn health.
-          </p>
-
-          <div className="rs-grid" ref={containerRef}>
-            {SERVICES.map((s, i) => (
-              <article key={i} className={`rs-card rs-card-${i % 5}`}>
-                <div className="rs-icon">
-                  <FontAwesomeIcon icon={s.icon} />
-                </div>
-
-                <div className="rs-body">
-                  <h3 className="rs-head">{s.title}</h3>
-                  <p className="rs-desc">{s.desc}</p>
-                </div>
-
-                <button
-                  className="rs-cta"
-                  aria-label={`Learn more about ${s.title}`}
-                >
-                  Learn More →
-                </button>
-              </article>
-            ))}
+      {/* Care Journey Section */}
+      <section className="journey-section">
+        <div className="journey-container">
+          <div className="journey-grid">
+            <div className="journey-image">
+              <div className="journey-content">
+                <h2>Book Your Emergency Consultation</h2>
+                <p>Planning your delivery? Discuss emergency preparedness with our obstetricians. Understanding procedures before labor reduces fear if complications arise.</p>
+                <p> <b>Consultation Hours:</b> <br />
+                  Monday - Saturday: 9 AM - 8 PM <br />
+                  Sunday: 9 AM - 2 PM</p>
+                <p><b>Emergency Care:</b> <br /> Available 24/7</p>
+                <button className="appointment-btn"> Schedule Prenatal Consultation → </button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
+       <section className="related-services">
+              <h2 className="related-title">Related Services You Might Need</h2>
+      
+              <div className="related-grid">
+                {relatedServices.map((service, index) => (
+                  <div className="related-card" key={index}>
+                    <div className="service-icon">
+                      <FontAwesomeIcon icon={service.icon} />
+                    </div>
+                    <h3>{service.title}</h3>
+                    <p>{service.desc}</p>
+                    <div className="arrow">→</div>
+                  </div>
+                ))}
+              </div>
+            </section>
+
       <section className="lab-hero">
         <div className="lab-content">
           <h1>
-            Prolife Hospital —  Cervical cerclage specialists protecting your pregnancy.
-
+           Prolife Hospital — High-risk pregnancy emergency LSCS in Chennai when every second counts.
           </h1>
-
-          <button className="lab-btn">
-            Protect Your Pregnancy Today →
+          <button className="lab-btn"> <a href="/contact"> Emergency? We're Ready 24/7→ </a>
           </button>
         </div>
       </section>
@@ -786,4 +842,4 @@ const PrePregnancy = () => {
   );
 };
 
-export default PrePregnancy;
+export default Emergency;

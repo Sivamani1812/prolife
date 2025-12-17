@@ -39,9 +39,10 @@ const Contact = () => {
       <div className="story-hero-banner">
         <img src="/images/img/download (1).webp" alt="Banner" className="story-hero-image" />
         <div className="story-hero-overlay">
-          <h1 className="story-hero-title">Contact Us</h1>
+          
         </div>
       </div>
+      <h1 className="story-hero-title1">Contact Us</h1>
 
       {/* Contact + Form */}
       <section className="contact-section">

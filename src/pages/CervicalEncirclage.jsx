@@ -18,7 +18,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FaCheckCircle } from "react-icons/fa";
 
-const PrePregnancy = () => {
+const CervicalEncirclage = () => {
 
 const SERVICES = [
   {
@@ -310,9 +310,10 @@ const containerRef = useRef(null);
           className="story-hero-image"
         />
         <div className="story-hero-overlay">
-          <h1 className="story-hero-title">Cervical Cerclage Treatment in Chennai</h1>
+          
         </div>
       </div>
+      <h1 className="story-hero-title1">Cervical Cerclage Treatment in Chennai</h1>
 
       {/* PLAN PREGNANCY SECTION */}
       <section className="plan-pregnancy-section">
@@ -338,7 +339,7 @@ const containerRef = useRef(null);
 
           <div className="plan-right">
             <img
-              src="/images/img/pre-pregnancy1.jpg"
+              src="/images/img/cct1.jpg"
               alt="Pre Pregnancy Consultation"
             />
           </div>
@@ -350,7 +351,7 @@ const containerRef = useRef(null);
         <div className="plan-container">
           <div className="plan-right">
             <img
-              src="/images/img/pre-pregnancy2.jpg"
+              src="/images/img/cct3.jpg"
               alt="Pre Pregnancy Consultation"
             />
           </div>
@@ -375,7 +376,7 @@ const containerRef = useRef(null);
       <section className="choose-prolife">
         <div className="choose-content">
           <h2 className="choose-title">
-            Why Choose Prolife <span>Prolife</span> for Cervical Cerclage in Chennai?
+            Why Choose  <span>PROLIFE</span> for Cervical Cerclage in Chennai?
           </h2>
         
           <ul className="choose-list">
@@ -403,9 +404,9 @@ const containerRef = useRef(null);
             <li>
               <strong>Multiple Cerclage Techniques Available</strong>
               <p>
-                <li>Transvaginal cerclage (McDonald or Shirodkar method)</li>
-                <li>Transabdominal cerclage for complex cases</li>
-                <li>Emergency cerclage when cervix has already started opening</li>
+                Transvaginal cerclage (McDonald or Shirodkar method)
+                Transabdominal cerclage for complex cases
+                Emergency cerclage when cervix has already started opening
                 We choose the right approach based on your anatomy and history.
 
               </p>
@@ -423,14 +424,14 @@ const containerRef = useRef(null);
             Read What Our Mothers Say →
           </a>
         </div>
-
+{/* 
         <div className="choose-img-wrapper">
           <img
-            src="/images/img/u7.webp"
+            src="/images/img/cct2.jpg"
             alt="Pregnancy Care at Prolife"
             className="choose-img"
           />
-        </div>
+        </div> */}
       </section>
 
       <section className="services-section">
@@ -547,61 +548,67 @@ const containerRef = useRef(null);
         </div>
       </section>
 
+      <section className="eds-section">
+      <div className="eds-container">
 
-      <section className="cerclage-team-section" id="team">
-        <div className="container">
-          <h2 className="section-title">Meet Our Cervical Cerclage Team</h2>
-
-
-          <div className="team-grid">
-            {/* Dr. Sujitha */}
-            <div className="team-card">
-              <h3 className="doctor-name">Dr. Sujitha R</h3>
-              <p className="designation">Senior Gynecologist & Obstetrician</p>
-              <p className="doctor-desc">
-                15+ years managing high-risk pregnancies and cervical complications. Has placed cerclages in hundreds of women—many who went on to deliver healthy babies after previous losses. Known for surgical precision and genuine compassion during anxious pregnancies.
-              </p>
-            </div>
-
-
-            {/* Dr. Thamarai */}
-            <div className="team-card">
-              <h3 className="doctor-name">Dr. Thamarai</h3>
-              <p className="designation">High-Risk Pregnancy Specialist</p>
-              <p className="doctor-desc">
-                Expert in complicated obstetric cases requiring surgical intervention. Specializes in managing pregnancies with cervical insufficiency, multiple gestations, and previous pregnancy losses. Patients trust her clinical judgment and calming presence.
-              </p>
-            </div>
-
-
-            {/* Dr. Varshini */}
-            <div className="team-card">
-              <h3 className="doctor-name">Dr. Varshini</h3>
-              <p className="designation">Obstetrician</p>
-              <p className="doctor-desc">
-               Skilled in both preventive and emergency cerclage placement. Combines modern obstetric techniques with individualized patient care. Particularly attentive to first-time mothers navigating high-risk pregnancies.
-              </p>
-            </div>
-
-
-            {/* Anesthesiology Team */}
-            <div className="team-card">
-              <h3 className="doctor-name">Anesthesiology Team</h3>
-              <p className="designation">
-                Dr. Hari Prakash | Dr. Shalini | Dr. Nithya Priyan
-              </p>
-              <p className="doctor-desc">
-               Ensure comfortable, pain-free procedures with expert anesthesia administration. Monitor patient safety throughout surgery and recovery.
-              </p>
-            </div>
-          </div>
-
-
-          <div className="center-btn">
-            <button className="cta-btn">Book Consultation With Our Specialists</button>
-          </div>
+        <div className="eds-header">
+          <h2>Schedule a Consultation with Our Team</h2>
+          <p>Skilled Hands, Compassionate Hearts</p>
         </div>
-      </section>
+
+        {/* Founder Highlight */}
+          <div className="eds-founder-highlight">
+            <div className="eds-founder-img">
+              <img src="./images/img/d11.png" alt="Dr. Thamarai" />
+            </div>
+
+            <div className="eds-founder-content">
+              <span className="eds-founder-tag">Founder</span>
+              <h3>Dr. Thamarai</h3>
+              <h4> Maternal Health & High-Risk Pregnancy Specialist</h4>
+              <p>
+                An expert in managing pregnancies complicated by medical conditions—diabetes, hypertension, previous surgeries. Dr. Thamarai's expertise means even complex cesarean deliveries happen safely. Her meticulous planning and surgical precision have earned trust from countless families facing challenging pregnancies.
+              </p>
+            </div>
+          </div>
+
+      
+        <div className="eds-grid">
+
+          <div className="eds-card">
+            <span className="eds-bar"></span>
+            <h3>Dr. Sujitha R – Senior Gynecologist & Obstetrician</h3>
+            <p>
+              With 15+ years of experience, Dr. Sujitha has performed countless planned cesarean deliveries with sterilisation. Her patients appreciate her thorough counseling approach and surgical expertise that ensures safe outcomes.
+            </p>
+          </div>
+
+          <div className="eds-card">
+            <span className="eds-bar"></span>
+            <h3>Dr. Varshini – Obstetrician & Gynecological Surgeon</h3>
+            <p>
+              Known for her calm demeanor and clear communication, Dr. Varshini guides mothers through decision-making with patience. Her surgical skills ensure minimal complications and smooth recovery.
+            </p>
+          </div>
+
+           <div className="eds-card">
+            <span className="eds-bar"></span>
+            <h3>Anesthesiology Team :</h3>
+            <p>
+             <b> Dr. Hari Prakash | Dr. Shalini | Dr. Nithya Priyan</b> 
+               Ensure comfortable, pain-free procedures with expert anesthesia administration. Monitor patient safety throughout surgery and recovery.
+            </p>
+          </div>
+
+         
+
+        </div>
+      </div>
+      <div className="str-cta1">
+        <a href="/ourteam" className="cta-btn">Book Consultation With Our Specialists </a></div>
+    </section>
+
+
 
      <section className="why-prolife-section">
   <div className="wp-container">
@@ -628,7 +635,7 @@ const containerRef = useRef(null);
       <section className="reviews-section">
         <p className="sub-title">TESTIMONIALS</p>
         <div className="google-rating">
-          ⭐⭐⭐⭐⭐ <span>5/5 Google Rating</span>
+           <span>4.5/5 Google Rating</span>
         </div>
 
         <div className="reviews-container">
@@ -647,12 +654,12 @@ const containerRef = useRef(null);
         </div>
 
         <a
-          href="https://g.page/r/CS9733eotKhCEBM/review"
+          href="https://www.justdial.com/Chennai/Prolife-Maternity-and-Fertility-Hospital-Near-DLF-LT-and-Chennai-Trade-Centre-Manapakkam/044PXX44-XX44-191211174423-E9K1_BZDET/reviews"
           target="_blank"
           rel="noreferrer"
           className="see-more-btn"
         >
-          ⭐ Read More Success Stories
+         Read More Success Stories
         </a>
       </section>
 
@@ -739,4 +746,4 @@ const containerRef = useRef(null);
   );
 };
 
-export default PrePregnancy;
+export default CervicalEncirclage;

@@ -4,13 +4,12 @@ import "../index.css";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const location = useLocation(); // detect route change
+  const location = useLocation(); 
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
 
-  // Close menu on route change
   useEffect(() => {
     setMenuOpen(false);
   }, [location]);
@@ -35,23 +34,11 @@ export default function Navbar() {
             <li className="dropdown">
               <a href="#">Services ▾</a>
               <ul className="dropdown-menu">
-                {/* <li><Link to="/pregnancy-maternity">Pregnancy / Maternity</Link></li> */}
                 <li className="sub-dropdown">
                   <a href="#">Obstetrics ▸</a>
                   <ul className="sub-menu">
                     <li><Link to="/pre-pregnancy">Pre-pregnancy </Link></li>
                     <li><Link to="/pregnancy"> Pregnancy Care</Link></li>
-                    {/* <li className="inner-dropdown">
-                      <a href="#">Your Pregnancy ▸</a>
-                      <ul className="inner-menu">
-                        <li><Link to="/just-pregnant">Just Pregnant</Link></li>
-                        <li><Link to="/growing-time">Growing Time: 2nd Trimester</Link></li>
-                        <li><Link to="/3rd-trimester">3rd Trimester</Link></li>
-                        <li><Link to="/after-37-weeks">After 37 Weeks</Link></li>
-                      </ul>
-                    </li> 
-                    <li><Link to="/your-birth-its-time">Your Birth It's Time</Link></li>
-                    <li><Link to="/post-natal-care">Post-Natal Care</Link></li> */}
                   </ul>
                 </li>
                 <li className="sub-dropdown">
@@ -78,9 +65,6 @@ export default function Navbar() {
                     <li><Link to="/sterilisation">Elective LSCS + Sterilisation</Link></li>
                   </ul>
                 </li>
-                {/* <li><Link to="/fetal-medicine">Fetal Medicine</Link></li>
-                <li><Link to="/ultrasound">Ultrasound</Link></li>
-                <li><Link to="/surgery-and-procedures">Surgery & Procedures</Link></li> */}
                 <li><Link to="/cervical-encirclage"> Cervical Encirclage </Link></li>
                 <li><Link to="/lab">Lab </Link></li>
               </ul>
@@ -101,7 +85,6 @@ export default function Navbar() {
           </button>
         </div>
 
-        {/* Hamburger */}
          {/* Hamburger */}
         <div
           id="hamburger"

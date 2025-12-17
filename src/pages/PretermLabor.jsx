@@ -249,9 +249,10 @@ const containerRef = useRef(null);
           className="story-hero-image"
         />
         <div className="story-hero-overlay">
-          <h1 className="story-hero-title">Preterm Labor Management Service</h1>
+         
         </div>
       </div>
+       <h1 className="story-hero-title1">Preterm Labor Management Service</h1>
 
       {/* PLAN PREGNANCY SECTION */}
       <section className="plan-pregnancy-section">
@@ -259,7 +260,7 @@ const containerRef = useRef(null);
 
             <div className="plan-right">
             <img
-              src="/images/img/pre-pregnancy1.jpg"
+              src="/images/img/pl2.jpg"
               alt="Pre Pregnancy Consultation"
             />
           </div>
@@ -364,18 +365,18 @@ const containerRef = useRef(null);
             </li>
           </ul>
 
-          {/* <a href="/reviews" className="choose-btn">
+          <a href="https://www.justdial.com/Chennai/Prolife-Maternity-and-Fertility-Hospital-Near-DLF-LT-and-Chennai-Trade-Centre-Manapakkam/044PXX44-XX44-191211174423-E9K1_BZDET/reviews" className="choose-btn">
             Read What Our Mothers Say →
-          </a> */}
+          </a>
         </div>
 
-        <div className="choose-img-wrapper">
+        {/* <div className="choose-img-wrapper">
           <img
-            src="/images/img/u7.webp"
+            src="/images/img/pl1.jpg"
             alt="Pregnancy Care at Prolife"
             className="choose-img"
           />
-        </div>
+        </div> */}
       </section>
 
       <section className="services-section">
@@ -480,9 +481,9 @@ const containerRef = useRef(null);
         </div>
 
         <div className="timeline-cta">
-          {/* <a href="/contact" className="cta-btn">
+          <a href="/contact" className="cta-btn">
             Not Sure If You Need It? Consult Our Doctors →
-          </a> */}
+          </a>
         </div>
       </section>
 
@@ -517,6 +518,21 @@ const containerRef = useRef(null);
           <h2 className="section-title">Meet Our Expert Obstetrics Team</h2>
           <p>Your preterm labor management is handled by experienced obstetric specialists who combine compassion with advanced clinical skill.</p>
 
+            <div className="eds-founder-highlight">
+            <div className="eds-founder-img">
+              <img src="./images/img/d11.png" alt="Dr. Thamarai" />
+            </div>
+
+            <div className="eds-founder-content">
+              <span className="eds-founder-tag">Founder</span>
+              <h3>Dr. Thamarai</h3>
+              <h4>Maternal – Fetal Medicine Specialist</h4>
+              <p>
+                Founder of our hospital and  Dr. Thamarai's patient-centered approach combines clinical excellence with genuine compassion, making her a trusted partner for women navigating thyroid concerns alongside gynecological health.
+              </p>
+            </div>
+          </div>
+
 
           <div className="team-grid">
             {/* Dr. Sujitha */}
@@ -527,17 +543,6 @@ const containerRef = useRef(null);
                 Expert in high-risk pregnancy and preterm labor cases, she brings steady reassurance and precise clinical judgment to urgent scenarios.
               </p>
             </div>
-
-
-            {/* Dr. Thamarai */}
-            <div className="team-card">
-              <h3 className="doctor-name">Dr. Thamarai</h3>
-              <p className="designation"> Gynecologist & Obstetrician</p>
-              <p className="doctor-desc">
-                Known for individualized care plans, she excels in managing multiple pregnancies and complex preterm labor conditions.
-              </p>
-            </div>
-
 
             {/* Dr. Varshini */}
             <div className="team-card">
@@ -578,18 +583,18 @@ const containerRef = useRef(null);
     <h2 className="wp-title"><strong>Why Prolife Hospital Excels in the Management of Threatened Preterm Labour</strong></h2>
 
     <div className="wp-grid fade-up">
-      <div className="wp-item slide-in-left">✓ <b>Complete Maternity Infrastructure -</b> Everything—from evaluation to delivery and neonatal care—happens seamlessly under one roof.</div>
-      <div className="wp-item slide-in-right">✓ <b>Advanced Modular Operation Theatres -</b> Ready for urgent cesarean deliveries when needed, minimizing delays in critical moments.</div>
-      <div className="wp-item slide-in-left">✓ Comfortable & Private Wards
+      <div className="wp-item slide-in-left"> <b>Complete Maternity Infrastructure -</b> Everything—from evaluation to delivery and neonatal care—happens seamlessly under one roof.</div>
+      <div className="wp-item slide-in-right"> <b>Advanced Modular Operation Theatres -</b> Ready for urgent cesarean deliveries when needed, minimizing delays in critical moments.</div>
+      <div className="wp-item slide-in-left"> <b>Comfortable & Private Wards </b> 
 Stress-free, air-conditioned rooms support healing during monitoring or extended bed rest.
 </div>
-      <div className="wp-item slide-in-right">✓ 24/7 Diagnostics & Pharmacy
+      <div className="wp-item slide-in-right"> <b> 24/7 Diagnostics & Pharmacy</b>
 Immediate access to tests, medications, and emergency therapies ensures no treatment delay.
 </div>
-      <div className="wp-item slide-in-left">✓ Family-Centered Maternity Care
+      <div className="wp-item slide-in-left"> <b>Family-Centered Maternity Care </b> 
 We involve partners and families to create a supportive, reassuring environment.
 </div>
-      <div className="wp-item slide-in-right">✓ Accessible & Affordable Excellence
+      <div className="wp-item slide-in-right"> <b>Accessible & Affordable Excellence </b>
 We offer top-tier high-risk pregnancy care at affordable costs with support for multiple insurance plans.
 </div>
     </div>
@@ -604,7 +609,7 @@ We offer top-tier high-risk pregnancy care at affordable costs with support for 
       <section className="reviews-section">
         <p className="sub-title">Voices of Grateful Mothers</p>
         <div className="google-rating">
-          ⭐⭐⭐⭐⭐ <span>5/5 Google Rating</span>
+           <span>4.5/5 Google Rating</span>
         </div>
 
         <div className="reviews-container">
@@ -623,12 +628,12 @@ We offer top-tier high-risk pregnancy care at affordable costs with support for 
         </div>
 
         <a
-          href="https://g.page/r/CS9733eotKhCEBM/review"
+          href="https://www.justdial.com/Chennai/Prolife-Maternity-and-Fertility-Hospital-Near-DLF-LT-and-Chennai-Trade-Centre-Manapakkam/044PXX44-XX44-191211174423-E9K1_BZDET/reviews"
           target="_blank"
           rel="noreferrer"
           className="see-more-btn"
         >
-          ⭐ Read More Success Stories
+          Read More Success Stories
         </a>
       </section>
 

@@ -21,7 +21,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 
-const NormalVaginal = () => {
+const Caesarean = () => {
 
   const features = [
     {
@@ -268,8 +268,8 @@ const NormalVaginal = () => {
 
           <div className="plan-left">
             <h2 className="plan-title">
-              Experience Natural Childbirth with <br />
-              <span>Expert Care </span>
+              Experience Natural Childbirth with 
+              <span> Expert Care </span>
             </h2>
 
             <p className="plan-description">
@@ -287,7 +287,7 @@ const NormalVaginal = () => {
 
           <div className="plan-right">
             <img
-              src="/images/img/pre-pregnancy1.jpg"
+              src="/images/img/Caesarean1.jpg"
               alt="Pre Pregnancy Consultation"
             />
           </div>
@@ -337,19 +337,19 @@ const NormalVaginal = () => {
               </p>
             </li>
           </ul>
-          <a href="/testimonial" className="plan-btn">
+          <a href="https://www.justdial.com/Chennai/Prolife-Maternity-and-Fertility-Hospital-Near-DLF-LT-and-Chennai-Trade-Centre-Manapakkam/044PXX44-XX44-191211174423-E9K1_BZDET/reviews" className="plan-btn">
             Read What Our Mothers Say →
           </a>
         </div>
 
-
+{/* 
         <div className="choose-img-wrapper">
           <img
-            src="/images/img/u7.webp"
+            src="/images/img/Caesarean2.jpg"
             alt="Pregnancy Care at Prolife"
             className="choose-img"
           />
-        </div>
+        </div> */}
 
       </section>
 
@@ -373,10 +373,12 @@ const NormalVaginal = () => {
           ))}
         </div>
 
-        <a href="#" className="assess-btn">
+        <a href="/contact" className="assess-btn">
           Not sure if you need a cesarean? Schedule a Consultation →
         </a>
       </section>
+
+
 
       <section className="asclean-section">
         <div className="asclean-container">
@@ -432,7 +434,7 @@ const NormalVaginal = () => {
             </div>
 
           </div>
-          <a href="#" className="success-btn">
+          <a href="/contact" className="success-btn">
             Ready to discuss your delivery options? Talk to Our Specialists  →
           </a>
         </div>
@@ -491,96 +493,102 @@ const NormalVaginal = () => {
           </div>
 
         </div>
-        <a href="#" className="success-btn">
+        <a href="/contact" className="success-btn">
           Does this describe your situation? Book Your Appointment →
         </a>
       </section>
 
-      <section className="cerclage-team-section" id="team">
-        <div className="container">
-          <h2 className="section-title">Meet Our Caesarean Section Specialists</h2>
 
 
-          <div className="team-grid">
-            {/* Dr. Sujitha */}
-            <div className="team-card">
-              <h3 className="doctor-name">Dr. Sujitha R</h3>
-              <p className="designation">Senior Gynecologist & Obstetrician</p>
-              <p className="doctor-desc">
-                With 15+ years performing cesarean deliveries, Dr. Sujitha combines surgical precision with compassionate care. Known for her calm demeanor during emergencies and thorough explanations that help mothers understand every decision.
-              </p>
+       <section className="eds-section">
+      <div className="eds-container">
+
+        <div className="eds-header">
+          <h2>Meet Our Caesarean Section Specialists </h2>
+          <p>Skilled Hands, Compassionate Hearts</p>
+        </div>
+
+        <p className="eds-intro">
+          The success of vacuum-assisted delivery depends heavily on the skill and experience of the performing obstetrician. At Prolife Hospitals, you're in capable hands.
+        </p>
+
+
+        {/* Founder Highlight */}
+          <div className="eds-founder-highlight">
+            <div className="eds-founder-img">
+              <img src="./images/img/d11.png" alt="Dr. Thamarai" />
             </div>
 
-
-            {/* Dr. Thamarai */}
-            <div className="team-card">
-              <h3 className="doctor-name">Dr. Thamarai</h3>
-              <p className="designation">High-Risk Pregnancy Specialist</p>
-              <p className="doctor-desc">
-                Expert in managing complicated pregnancies requiring cesarean delivery. Handles cases with diabetes, hypertension, multiple pregnancies, and previous surgical complications. Her clinical expertise ensures safer outcomes in challenging situations.
+            <div className="eds-founder-content">
+              <span className="eds-founder-tag">Founder</span>
+              <h3>Dr. Thamarai</h3>
+              <h4>High-Risk Pregnancy Specialist</h4>
+              <p>
+                Founder of our hospital and Expert in managing complicated pregnancies requiring cesarean delivery. Handles cases with diabetes, hypertension, multiple pregnancies, and previous surgical complications. Her clinical expertise ensures safer outcomes in challenging situations.
               </p>
             </div>
+          </div>
 
+        <div className="eds-grid">
 
-            {/* Dr. Varshini */}
-            <div className="team-card">
-              <h3 className="doctor-name">Dr. Varshini</h3>
-              <p className="designation">Obstetrician</p>
-              <p className="doctor-desc">
-                Skilled in both planned and emergency cesarean sections. Takes time to counsel mothers about surgical necessity, recovery expectations, and future pregnancy options. Focuses on minimizing anxiety while maintaining highest surgical standards.
-              </p>
-            </div>
+          <div className="eds-card">
+            <span className="eds-bar"></span>
+            <h3>Dr. Sujitha R – Senior Gynecologist & Obstetrician</h3>
+            <p>
+               With 15+ years performing cesarean deliveries, Dr. Sujitha combines surgical precision with compassionate care. Known for her calm demeanor during emergencies and thorough explanations that help mothers understand every decision.
+            </p>
+          </div>
 
+          
 
-            {/* Anesthesiology Team */}
-            <div className="team-card">
-              <h3 className="doctor-name">Dr. Shalini</h3>
-              <p className="designation">
-                Anesthetist
-              </p>
-              <p className="doctor-desc">
-                Provides safe, comfortable spinal and epidural anesthesia for cesarean deliveries. Monitors mothers throughout surgery, manages pain effectively, and ensures smooth recovery from anesthesia. Available 24/7 for emergency cases.
-              </p>
-            </div>
+          <div className="eds-card">
+            <span className="eds-bar"></span>
+            <h3>Dr. Varshini – Consultant Gynecologist</h3>
+            <p>
+             Skilled in both planned and emergency cesarean sections. Takes time to counsel mothers about surgical necessity, recovery expectations, and future pregnancy options. Focuses on minimizing anxiety while maintaining highest surgical standards.
+            </p>
+          </div>
 
-            <div className="team-card">
-              <h3 className="doctor-name">Dr. Hari Prakash</h3>
-              <p className="designation">
-                Anesthetist
-              </p>
-              <p className="doctor-desc">
-                Expert in obstetric anesthesia with extensive cesarean experience. Known for gentle technique that minimizes discomfort and comprehensive monitoring that ensures maternal safety during surgery.
-              </p>
-            </div>
+          <div className="eds-card">
+            <span className="eds-bar"></span>
+            <h3>Dr. Shalini - Anesthetist</h3>
+            <p>
+               Provides safe, comfortable spinal and epidural anesthesia for cesarean deliveries. Monitors mothers throughout surgery, manages pain effectively, and ensures smooth recovery from anesthesia. Available 24/7 for emergency cases.
+            </p>
+          </div>
 
-            <div className="team-card">
-              <h3 className="doctor-name">Dr. Nithya Priyan</h3>
-              <p className="designation">
-                Anesthetist
-              </p>
-              <p className="doctor-desc">
-                Specializes in pain management for cesarean sections. Works closely with surgical team to provide optimal anesthesia while keeping mothers comfortable and aware during their baby's birth.
-              </p>
-            </div>
+          <div className="eds-card">
+            <span className="eds-bar"></span>
+            <h3>Dr. Hari Prakash - Anesthetist</h3>
+            <p>
+               Expert in obstetric anesthesia with extensive cesarean experience. Known for gentle technique that minimizes discomfort and comprehensive monitoring that ensures maternal safety during surgery.
+            </p>
+          </div>
 
-            <div className="team-card">
-              <h3 className="doctor-name">Dr. Uma Maheshwari</h3>
-              <p className="designation">
-                Anesthetist
-              </p>
-              <p className="doctor-desc">
-                Assesses every newborn immediately after cesarean delivery. Provides expert neonatal care, manages any breathing or adaptation issues, and ensures babies transition smoothly after surgical birth.
-              </p>
-            </div>
-
-
+          <div className="eds-card">
+            <span className="eds-bar"></span>
+            <h3>Dr. Nithya Priyan - Anesthetist</h3>
+            <p>
+             Specializes in pain management for cesarean sections. Works closely with surgical team to provide optimal anesthesia while keeping mothers comfortable and aware during their baby's birth.
+            </p>
+          </div>
+          <div className="eds-card">
+            <span className="eds-bar"></span>
+            <h3>Dr. Uma Maheshwari - Anesthetist</h3>
+            <p>
+               Assesses every newborn immediately after cesarean delivery. Provides expert neonatal care, manages any breathing or adaptation issues, and ensures babies transition smoothly after surgical birth.
+            </p>
           </div>
           <a href="/ourteam" className="success-btn">
             View Our Complete Team →
           </a>
 
         </div>
-      </section>
+
+       </div>
+    </section>
+
+     
 
       <section className="why-prolife-section">
         <div className="wp-container">
@@ -615,7 +623,7 @@ const NormalVaginal = () => {
       <section className="reviews-section">
         <p className="sub-title">What Our Families Say</p>
         <div className="google-rating">
-          ⭐⭐⭐⭐⭐ <span>5/5 Google Rating</span>
+          <span>4.5/5 Google Rating</span>
         </div>
 
         <div className="reviews-container">
@@ -634,12 +642,12 @@ const NormalVaginal = () => {
         </div>
 
         <a
-          href="https://g.page/r/CS9733eotKhCEBM/review"
+          href="https://www.justdial.com/Chennai/Prolife-Maternity-and-Fertility-Hospital-Near-DLF-LT-and-Chennai-Trade-Centre-Manapakkam/044PXX44-XX44-191211174423-E9K1_BZDET/reviews"
           target="_blank"
           rel="noreferrer"
           className="see-more-btn"
         >
-          ⭐ See More Reviews
+           See More Reviews
         </a>
       </section>
 
@@ -710,4 +718,4 @@ const NormalVaginal = () => {
   );
 };
 
-export default NormalVaginal;
+export default Caesarean ;

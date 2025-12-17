@@ -18,7 +18,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FaCheckCircle } from "react-icons/fa";
 
-const highrisk = () => {
+const Highrisk = () => {
 
   const SERVICES = [
     {
@@ -52,7 +52,33 @@ const highrisk = () => {
       icon: faStethoscope,
     },
   ];
-
+const relatedServices = [
+  {
+    title: "Pre-Pregnancy Counselling",
+    desc: "Plan your pregnancy with expert medical guidance. Optimize your health before conceiving for safer outcomes.",
+   
+  },
+  {
+    title: "Fertility Treatment ",
+    desc: "Comprehensive fertility evaluation and treatment for couples facing conception challenges.",
+    
+  },
+  {
+    title: "High-Risk Pregnancy Management",
+    desc: " Specialized care for pregnancies with medical complications or previous pregnancy issues",
+   
+  },
+  {
+    title: "PCOS Management",
+    desc: "  Treatment for polycystic ovary syndrome affecting pregnancy and hormonal health.",
+  
+  },
+  {
+    title: "Pediatric Care",
+    desc: "Continue your baby's healthcare journey with our experienced pediatricians.",
+   
+  }
+];
   const containerRef = useRef(null);
 
   useEffect(() => {
@@ -324,9 +350,10 @@ const highrisk = () => {
           className="story-hero-image"
         />
         <div className="story-hero-overlay">
-          <h1 className="story-hero-title">High-Risk Pregnancy Management</h1>
+          
         </div>
       </div>
+      <h1 className="story-hero-title1">High-Risk Pregnancy Management</h1>
 
       {/* PLAN PREGNANCY SECTION */}
       <section className="plan-pregnancy-section">
@@ -334,7 +361,7 @@ const highrisk = () => {
 
           <div className="plan-left">
             <h2 className="plan-title">
-              Advanced Care for Safe, <br /> <span> Confident & Well-Monitored Pregnancies</span>
+              Advanced Care for Safe, Confident & Well- Monitored Pregnancies
             </h2>
 
             <p className="plan-description">
@@ -352,7 +379,7 @@ const highrisk = () => {
 
           <div className="plan-right">
             <img
-              src="/images/img/pre-pregnancy1.jpg"
+              src="/images/img/highrisk1.jpg"
               alt="Pre Pregnancy Consultation"
             />
           </div>
@@ -364,7 +391,7 @@ const highrisk = () => {
         <div className="plan-container">
           <div className="plan-right">
             <img
-              src="/images/img/pre-pregnancy2.jpg"
+              src="/images/img/highrisk2.jpg"
               alt="Pre Pregnancy Consultation"
             />
           </div>
@@ -390,7 +417,7 @@ const highrisk = () => {
       <section className="choose-prolife">
         <div className="choose-content">
           <h2 className="choose-title">
-            Why Choose <span> Prolife </span> for High-Risk Pregnancy Care?
+            Why Choose <span> PROLIFE </span> for High-Risk Pregnancy Care?
           </h2>
           <ul className="choose-list">
             <li>
@@ -410,11 +437,11 @@ const highrisk = () => {
               <strong>Advanced Fetal Monitoring</strong>
               <p>
                 Our high-risk pregnancy treatment and monitoring includes:
-                ● Detailed ultrasounds & 4D imaging
-                ● Doppler studies
-                ● Fetal heart rate monitoring
-                ● Growth scans
-                ● Screening for genetic or structural concerns
+               <br /> ● Detailed ultrasounds & 4D imaging
+               <br /> ● Doppler studies
+                <br />● Fetal heart rate monitoring
+                <br />● Growth scans
+                <br />● Screening for genetic or structural concerns
               </p>
             </li>
             <li>
@@ -432,18 +459,18 @@ const highrisk = () => {
             </li>
           </ul>
 
-          <a href="/reviews" className="choose-btn">
+          <a href="https://www.justdial.com/Chennai/Prolife-Maternity-and-Fertility-Hospital-Near-DLF-LT-and-Chennai-Trade-Centre-Manapakkam/044PXX44-XX44-191211174423-E9K1_BZDET/reviews"   className="choose-btn">
             Read Patient Stories →
           </a>
         </div>
 
-        <div className="choose-img-wrapper">
+        {/* <div className="choose-img-wrapper">
           <img
-            src="/images/img/u7.webp"
+            src="/images/img/highrisk3.jpg"
             alt="Pregnancy Care at Prolife"
             className="choose-img"
           />
-        </div>
+        </div> */}
       </section>
 
       <section className="services-section">
@@ -498,7 +525,7 @@ const highrisk = () => {
         <div className="lab-grid">
           {steps.map((s, i) => (
             <div key={i} className="lab-card">
-              <div className="icon">{s.icon}</div>
+              <div className="icon1">{s.icon}</div>
               <h3>{s.title}</h3>
               <p>{s.desc}</p>
             </div>
@@ -506,7 +533,7 @@ const highrisk = () => {
         </div>
 
         <div className="btn-wrapper">
-          <button className="cta-btn">Book Your Appointment  →</button>
+          <button className="cta-btn"> <a href="/contact">Book Your Appointment  →</a> </button>
         </div>
       </section>
 
@@ -614,14 +641,78 @@ const highrisk = () => {
         </div>
       </section> */}
 
+      <section className="eds-section">
+        <div className="eds-container">
 
-      <section className="cerclage-team-section" id="team">
+          <div className="eds-header">
+            <h2>Meet Our High-Risk Pregnancy Specialists</h2>
+            <p>Skilled Hands, Compassionate Hearts</p>
+          </div>
+
+          {/* Founder Highlight */}
+          <div className="eds-founder-highlight">
+            <div className="eds-founder-img">
+              <img src="./images/img/d11.png" alt="Dr. Thamarai" />
+            </div>
+
+            <div className="eds-founder-content">
+              <span className="eds-founder-tag">Founder</span>
+              <h3>Dr. Thamarai</h3>
+              <h4>Maternal – Fetal Medicine Specialist</h4>
+              <p>
+                Founder of our hospital and Expert in managing complex medical conditions before and during pregnancy—diabetes, hypertension, autoimmune disorders.
+              </p>
+            </div>
+          </div>
+
+          <div className="eds-grid">
+
+            <div className="eds-card">
+              <span className="eds-bar"></span>
+              <h3>Dr. Sujitha R – Senior Gynecologist</h3>
+              <p>
+                15+ years managing normal and complicated pregnancies. Known for her patient-centered approach that ensures mothers feel heard and supported.
+              </p>
+            </div>
+
+
+
+            <div className="eds-card">
+              <span className="eds-bar"></span>
+              <h3>Dr. Varshini – Fertility Specialist</h3>
+              <p>
+                Advanced training in reproductive endocrinology. Helps couples facing conception challenges using evidence-based approaches.
+              </p>
+            </div>
+            
+            
+
+             <div className="hp-support">
+              <h3>Supported by:</h3>
+              
+                {supports.map((s) => (
+                  <p key={s}>{s}</p>
+                ))}
+            </div>
+
+          </div>
+          <div className="consultation-cta">
+            <a href="/contact" className="cta-btn">
+              Have specific questions for our doctors? Book a Consultation →
+            </a>
+          </div>
+
+      
+      </div>
+      </section>
+
+      {/* <section className="cerclage-team-section" id="team">
         <div className="container">
           <h2 className="section-title">Meet Our High-Risk Pregnancy Specialists</h2>
 
 
           <div className="team-grid">
-            {/* Dr. Sujitha */}
+         
             <div className="team-card">
               <h3 className="doctor-name">Dr. Sujitha R  </h3>
               <p className="designation">Senior Gynecologist & Obstetrician</p>
@@ -631,7 +722,7 @@ const highrisk = () => {
             </div>
 
 
-            {/* Dr. Thamarai */}
+        
             <div className="team-card">
               <h3 className="doctor-name">Dr. Thamarai</h3>
               <p className="designation"> Maternal-Fetal Medicine Specialist</p>
@@ -641,7 +732,7 @@ const highrisk = () => {
             </div>
 
 
-            {/* Dr. Varshini */}
+       
             <div className="team-card">
               <h3 className="doctor-name">Dr. Varshini</h3>
               <p className="designation">Gynecologist & High-Risk Pregnancy Specialist</p>
@@ -651,7 +742,7 @@ const highrisk = () => {
             </div>
 
 
-            {/* Anesthesiology Team
+
             <div className="team-card">
               <h3 className="doctor-name">Anesthesiology Team</h3>
               <p className="designation">
@@ -660,21 +751,15 @@ const highrisk = () => {
               <p className="doctor-desc">
                 Ensure comfortable, pain-free procedures with expert anesthesia administration. Monitor patient safety throughout surgery and recovery.
               </p>
-            </div> */}
+            </div> 
           </div>
-          <div className="hp-support">
-              <h3>Supported by:</h3>
-              
-                {supports.map((s) => (
-                  <p key={s}>{s}</p>
-                ))}
-            </div>
+         
 
           <div className="center-btn">
             <button className="cta-btn">Meet Our Doctors</button>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="why-prolife-section">
   <h2 className="section-title">Why Prolife Hospital for Pregnancy Care?
@@ -707,7 +792,7 @@ const highrisk = () => {
       <section className="reviews-section">
         <p className="sub-title">TESTIMONIALS</p>
         <div className="google-rating">
-          ⭐⭐⭐⭐⭐ <span>5/5 Google Rating</span>
+           <span>4.5/5 Google Rating</span>
         </div>
 
         <div className="reviews-container">
@@ -726,12 +811,12 @@ const highrisk = () => {
         </div>
 
         <a
-          href="https://g.page/r/CS9733eotKhCEBM/review"
+          href="https://www.justdial.com/Chennai/Prolife-Maternity-and-Fertility-Hospital-Near-DLF-LT-and-Chennai-Trade-Centre-Manapakkam/044PXX44-XX44-191211174423-E9K1_BZDET/reviews"
           target="_blank"
           rel="noreferrer"
           className="see-more-btn"
         >
-          ⭐ Read More Success Stories
+           Read More Success Stories
         </a>
       </section>
 
@@ -768,39 +853,19 @@ const highrisk = () => {
         ))}
       </section>
 
-      <section className="rs-section" aria-labelledby="rs-heading">
-        <div className="rs-wrap">
-          <h2 id="rs-heading" className="rs-title">
-            Related Services You Might Need
-          </h2>
+       <section className="related-services">
+      <h2 className="related-title">Related Services You Might Need</h2>
 
-          <p className="rs-sub">
-            Care pathways and treatments tailored for maternal & newborn health.
-          </p>
-
-          <div className="rs-grid" ref={containerRef}>
-            {SERVICES.map((s, i) => (
-              <article key={i} className={`rs-card rs-card-${i % 5}`}>
-                <div className="rs-icon">
-                  <FontAwesomeIcon icon={s.icon} />
-                </div>
-
-                <div className="rs-body">
-                  <h3 className="rs-head">{s.title}</h3>
-                  {/* <p className="rs-desc">{s.desc}</p> */}
-                </div>
-
-                <button
-                  className="rs-cta"
-                  aria-label={`Learn more about ${s.title}`}
-                >
-                  Learn More →
-                </button>
-              </article>
-            ))}
+      <div className="related-grid">
+        {relatedServices.map((service, index) => (
+          <div className="related-card" key={index}>
+            <h3>{service.title}</h3>
+            <p>{service.desc}</p>
+            <div className="arrow">→</div>
           </div>
-        </div>
-      </section>
+        ))}
+      </div>
+    </section>
 
       <section className="lab-hero">
         <div className="lab-content">
@@ -813,4 +878,4 @@ const highrisk = () => {
   );
 };
 
-export default highrisk;
+export default Highrisk;

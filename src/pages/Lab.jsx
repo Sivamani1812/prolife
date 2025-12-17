@@ -300,16 +300,17 @@ const Lab = () => {
           className="story-hero-image"
         />
         <div className="story-hero-overlay">
-          <h1 className="story-hero-title">Best Diagnostic Lab in Chennai
-          </h1>
+         
         </div>
       </div>
+       <h1 className="story-hero-title1">Best Diagnostic Lab in Chennai
+          </h1>
 
       {/* Lab Section */}
     <section className="fetal-section">
         <div className="fetal-section-container">
           <div className="fetal-section-content">
-            <h2 className="fetal-section-title">Comprehensive Laboratory Services at Prolife Hospital</h2>
+            <h2 className="fetal-section-title">Comprehensive Laboratory Services at <span> PROLIFE HOSPITAL</span> </h2>
             <p className="fetal-section-text">
               Your health decisions start with accurate answers. Whether it's a routine checkup, pregnancy monitoring, or investigating symptoms that won't go away—reliable test results change everything.
             </p>
@@ -480,7 +481,7 @@ const Lab = () => {
   <div className="lab-grid">
     {steps.map((s, i) => (
       <div key={i} className="lab-card">
-        <div className="icon">{s.icon}</div>
+        <div className="icon1">{s.icon}</div>
         <h3>{s.title}</h3>
         <p>{s.desc}</p>
       </div>
@@ -494,39 +495,44 @@ const Lab = () => {
 
 
       <section className="expert-wrapper">
-        <div className="expert-container">
-          {/* Content Left */}
-          <div className="expert-content">
-            <h2>Meet Our Lab Experts</h2>
+  <div className="expert-container">
 
-            <h3>Dr. Sathya Moorthy</h3>
-            <p className="designation">General Physician & Lab Coordinator</p>
+    {/* LEFT IMAGE */}
+    <div className="expert-img-box">
+      <img
+        src={imgSrc}
+        alt="Lab Expert Doctor"
+        loading="lazy"
+      />
+    </div>
 
-            <p className="details">
-              Oversees clinical correlation of lab results with patient symptoms.
-              Ensures diagnostic accuracy and guides appropriate testing protocols.
-            </p>
+    {/* RIGHT CONTENT */}
+    <div className="expert-content">
+      <span className="expert-tag">Lab Head</span>
 
-            <ul className="highlights">
-              <li>15+ years experience</li>
-              <li>Board-certified specialist</li>
-              <li>Expert in quality control</li>
-              <li>Advanced diagnostic knowledge</li>
-            </ul>
+      <h2>Meet Our Lab Experts</h2>
 
-            <button className="talk-btn">Talk to Our Team →</button>
-          </div>
+      <h3>Dr. Sathya Moorthy</h3>
+      <p className="designation">General Physician & Lab Coordinator</p>
 
-          {/* Image Right */}
-          <div className="expert-img-box">
-            <img
-              src={imgSrc}
-              alt="Lab Expert Doctor"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </section>
+      <p className="details">
+        Oversees clinical correlation of lab results with patient symptoms.
+        Ensures diagnostic accuracy and guides appropriate testing protocols.
+      </p>
+
+      <ul className="highlights">
+        <li>15+ years experience</li>
+        <li>Board-certified specialist</li>
+        <li>Expert in quality control</li>
+        <li>Advanced diagnostic knowledge</li>
+      </ul>
+
+      <button className="talk-btn"><a href="/contact">Talk to Our Team →</a></button>
+    </div>
+
+  </div>
+</section>
+
 
       <section className="home-collection-wrapper">
         <div className="home-collection-container">
@@ -713,7 +719,7 @@ const Lab = () => {
         </div>
 
         <div className="testimonials-cta">
-          <button>Read More Patient Experiences</button>
+          <button> <a href="https://www.justdial.com/Chennai/Prolife-Maternity-and-Fertility-Hospital-Near-DLF-LT-and-Chennai-Trade-Centre-Manapakkam/044PXX44-XX44-191211174423-E9K1_BZDET/reviews">Read More Patient Experiences</a> </button>
         </div>
       </section>
 

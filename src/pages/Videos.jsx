@@ -26,9 +26,10 @@ export default function VideosSection() {
           className="story-hero-image w-full h-full object-cover"
         />
         <div className="story-hero-overlay absolute inset-0 bg-black/50 flex items-center justify-center">
-          <h1 className="story-hero-title text-white text-4xl font-bold uppercase">Videos</h1>
+          
         </div>
       </div>
+      <h1 className="story-hero-title1 text-white text-4xl font-bold uppercase">Videos</h1>
 
       <div className="vid-container py-10">
         <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

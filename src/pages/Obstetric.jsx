@@ -457,9 +457,10 @@ const Obstetric = () => {
                     className="story-hero-image"
                 />
                 <div className="story-hero-overlay">
-                    <h1 className="story-hero-title"> Obstetric Emergencies Care at Prolife Hospital, Chennai</h1>
+                    
                 </div>
             </div>
+            <h1 className="story-hero-title1"> Obstetric Emergencies Care at Prolife Hospital, Chennai</h1>
 
             {/* PLAN PREGNANCY SECTION */}
             <section className="plan-pregnancy-section">
@@ -467,7 +468,7 @@ const Obstetric = () => {
 
                     <div className="plan-left">
                         <h2 className="plan-title">
-                            Expert Emergency Obstetric Care When   <br />
+                            Expert Emergency Obstetric Care When  
                             <span> Every Moment Counts</span>
                         </h2>
 
@@ -485,7 +486,7 @@ const Obstetric = () => {
 
                     <div className="plan-right">
                         <img
-                            src="/images/img/pre-pregnancy1.jpg"
+                            src="/images/img/obs1.jpg"
                             alt="Pre Pregnancy Consultation"
                         />
                     </div>
@@ -496,7 +497,7 @@ const Obstetric = () => {
             <section className="choose-prolife">
                 <div className="choose-content">
                     <h2 className="choose-title">
-                        Why Choose <span>Prolife Hospital</span>for Obstetric Emergency Care?
+                        Why Choose <span> PROLIFE HOSPITAL </span>for Obstetric Emergency Care?
                     </h2>
 
                     <ul className="choose-list">
@@ -546,13 +547,13 @@ const Obstetric = () => {
                     </ul>
                 </div>
 
-                <div className="choose-img-wrapper">
+                {/* <div className="choose-img-wrapper">
                     <img
-                        src="/images/img/u7.webp"
+                        src="/images/img/obs2.jpg"
                         alt="Pregnancy Care at Prolife"
                         className="choose-img"
                     />
-                </div>
+                </div> */}
             </section>
 
              <section className="ob-section">
@@ -705,30 +706,105 @@ const Obstetric = () => {
             </section>
 
 
-    <section className="doc-section">
-            <div className="doc-container">
-        
-                  <h2 className="doc-title">Meet Our Emergency Obstetric Team</h2>
-                  <p className="doc-sub">Experienced Specialists Ready When You Need Them</p>
+            <section className="eds-section">
+        <div className="eds-container">
 
-                 <div className="doc-grid">
-                   {doctors.map((doc, index) => (
-                 <div className="doc-card" key={index}>
-                 <div className="doc-img">
-                     <img src={doc.img} alt={doc.name} />
-                </div>
+          <div className="eds-header">
+            <h2>Meet Our Emergency Obstetric Team</h2>
+            <p>Skilled Hands, Compassionate Hearts</p>
+          </div>
 
-                <h3>{doc.name}</h3>
-                <span className="doc-role">{doc.role}</span>
-              <p className="doc-desc">{doc.desc}</p>
+          {/* Founder Highlight */}
+          <div className="eds-founder-highlight">
+            <div className="eds-founder-img">
+              <img src="./images/img/d11.png" alt="Dr. Thamarai" />
             </div>
-          ))}
-        </div>
-        <p className="doc-footer">
-          Our multidisciplinary team ensures seamless collaboration between obstetricians, anesthetists, pediatricians, and skilled nurses for the highest level of emergency care.
-        </p>
+
+            <div className="eds-founder-content">
+              <span className="eds-founder-tag">Founder</span>
+              <h3>Dr. Thamarai</h3>
+              <h4>Maternal – Fetal Medicine Specialist</h4>
+              <p>
+                Founder of our hospital and Expert in handling pregnancies with medical complications—diabetes, hypertension, autoimmune conditions. Clinical precision with calm demeanor.
+              </p>
+            </div>
+          </div>
+
+          <div className="eds-grid">
+
+            <div className="eds-card">
+              <span className="eds-bar"></span>
+              <h3>Dr. Sujitha R – Senior Gynecologist</h3>
+              <p>
+                15+ years managing normal and complicated pregnancies. Known for her patient-centered approach that ensures mothers feel heard and supported.
+              </p>
+            </div>
+
+
+
+            <div className="eds-card">
+              <span className="eds-bar"></span>
+              <h3>Dr. Varshini – Fertility Specialist</h3>
+              <p>
+                Advanced training in reproductive endocrinology. Helps couples facing conception challenges using evidence-based approaches.
+              </p>
+            </div>
+
+              <div className="eds-card">
+              <span className="eds-bar"></span>
+              <h3>Dr. Shalini - Anesthetistt</h3>
+              <p>       
+Provides safe, precise obstetric anesthesia with continuous monitoring of maternal & fetal wellbeing.
+              </p>
+            </div>
+
+              <div className="eds-card">
+              <span className="eds-bar"></span>
+              <h3>Dr. Hari Prakash - Anesthetist</h3>
+              <p>
+               
+Known for vigilant monitoring and expert anesthetic support during critical obstetric surgeries.
+              </p>
+            </div>
+
+
+              <div className="eds-card">
+              <span className="eds-bar"></span>
+              <h3>  Dr. Nithya Priyan - Anesthetist</h3>
+              <p>
+Specialized in rapid-sequence anesthesia for emergency C-sections, ensuring smooth and safe surgical experiences.
+              </p>
+            </div>
+
+
+              <div className="eds-card">
+              <span className="eds-bar"></span>
+              <h3>Dr. Uma Maheshwari – Pediatrician</h3>
+              <p>
+               Newborn care specialist. Baby’s first medical assessment, vaccination plan & parental support.
+              </p>
+            </div>
+
+             {/* <div className="hp-support">
+              <h3>Supported by:</h3>
+              
+                {supports.map((s) => (
+                  <p key={s}>{s}</p>
+                ))}
+            </div> */}
+
+          </div>
+          <div className="consultation-cta">
+            <a href="/contact" className="cta-btn">
+              Have specific questions for our doctors? Book a Consultation →
+            </a>
+          </div>
+
+      
       </div>
-    </section>
+      </section>
+
+
 
     <section className="trust-section">
       <div className="trust-container">
@@ -759,7 +835,7 @@ const Obstetric = () => {
 <section className="reviews-section">
     <p className="sub-title">TESTIMONIALS</p>
     <div className="google-rating">
-        ⭐⭐⭐⭐⭐ <span>5/5 Google Rating</span>
+         <span>4.5/5 Google Rating</span>
     </div>
 
     <div className="reviews-container">
@@ -778,12 +854,12 @@ const Obstetric = () => {
     </div>
 
     <a
-        href="https://g.page/r/CS9733eotKhCEBM/review"
+        href="https://www.justdial.com/Chennai/Prolife-Maternity-and-Fertility-Hospital-Near-DLF-LT-and-Chennai-Trade-Centre-Manapakkam/044PXX44-XX44-191211174423-E9K1_BZDET/reviews"
         target="_blank"
         rel="noreferrer"
         className="see-more-btn"
     >
-        ⭐ Read More Success Stories
+         Read More Success Stories
     </a>
 </section>
 

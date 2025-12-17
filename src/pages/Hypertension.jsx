@@ -341,9 +341,10 @@ const Hypertension = () => {
           className="story-hero-image"
         />
         <div className="story-hero-overlay">
-          <h1 className="story-hero-title">Hypertension Treatment in Chennai</h1>
+       
         </div>
       </div>
+         <h1 className="story-hero-title1">Hypertension Treatment in Chennai</h1>
 
       {/* PLAN PREGNANCY SECTION */}
       <section className="plan-pregnancy-section">
@@ -351,7 +352,7 @@ const Hypertension = () => {
 
           <div className="plan-left">
             <h2 className="plan-title">
-              Expert Blood Pressure Care at <br /> <span> Prolife Hospital </span>
+              Expert Blood Pressure Care at <br /> <span> PROLIFE HOSPITAL </span>
             </h2>
 
             <p className="plan-description">
@@ -368,7 +369,7 @@ const Hypertension = () => {
 
           <div className="plan-right">
             <img
-              src="/images/img/pre-pregnancy1.jpg"
+              src="/images/img/hyper1.jpg"
               alt="Pre Pregnancy Consultation"
             />
           </div>
@@ -380,7 +381,7 @@ const Hypertension = () => {
         <div className="plan-container">
           <div className="plan-right">
             <img
-              src="/images/img/pre-pregnancy2.jpg"
+              src="/images/img/hyper2.jpg"
               alt="Pre Pregnancy Consultation"
             />
           </div>
@@ -529,7 +530,7 @@ We tailor your plan based on:
           If you fall into any of these categories, early evaluation is crucial.
         </div>
 
-        <a href="#booking" className="gdm-btn">
+        <a href="/contact" className="gdm-btn">
           Book Appointment →
         </a>
       </div>
@@ -538,6 +539,21 @@ We tailor your plan based on:
 <section className="htn-team-root" aria-labelledby="htn-team-title">
   <div className="htn-team-inner">
     <h2 id="htn-team-title">Our Expert Hypertension Care Team</h2>
+    
+    <div className="eds-founder-highlight">
+            <div className="eds-founder-img">
+              <img src="./images/img/d11.png" alt="Dr. Thamarai" />
+            </div>
+
+            <div className="eds-founder-content">
+              <span className="eds-founder-tag">Founder</span>
+              <h3>Dr. Thamarai</h3>
+              <h4>Maternal – Fetal Medicine Specialist</h4>
+              <p>
+                Founder of our hospital and  Dr. Thamarai's patient-centered approach combines clinical excellence with genuine compassion, making her a trusted partner for women navigating thyroid concerns alongside gynecological health.
+              </p>
+            </div>
+          </div>
 
     <div className="htn-team-grid">
 
@@ -583,7 +599,7 @@ We tailor your plan based on:
 
 
 <section className="why-prolife-section">
-  <h2 className="section-title">Why Prolife Hospital Stands Out as the Best Hospital for Hypertension in Chennai
+  <h2 className="section-title">Why <span> PROLIFE HOSPITAL</span> Stands Out as the Best Hospital for Hypertension 
 </h2>
   
   <div className="prolife-grid-pregnancy">
@@ -614,7 +630,7 @@ We tailor your plan based on:
       <section className="reviews-section">
         <p className="sub-title">TESTIMONIALS</p>
         <div className="google-rating">
-          ⭐⭐⭐⭐⭐ <span>5/5 Google Rating</span>
+           <span>4.5/5 Google Rating</span>
         </div>
 
         <div className="reviews-container">
@@ -633,12 +649,12 @@ We tailor your plan based on:
         </div>
 
         <a
-          href="https://g.page/r/CS9733eotKhCEBM/review"
+          href="https://www.justdial.com/Chennai/Prolife-Maternity-and-Fertility-Hospital-Near-DLF-LT-and-Chennai-Trade-Centre-Manapakkam/044PXX44-XX44-191211174423-E9K1_BZDET/reviews"
           target="_blank"
           rel="noreferrer"
           className="see-more-btn"
         >
-          ⭐ Read More Success Stories
+           Read More Success Stories
         </a>
       </section>
 

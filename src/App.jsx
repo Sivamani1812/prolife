@@ -5,14 +5,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 import Home from "./pages/Home";
 import Ourstory from "./pages/Ourstory";
 import Ourteam from "./pages/Ourteam";
 import Contact from "./pages/Contact";
-import PregnancyMaternity from "./pages/PregnancyMaternity";
-import FetalMedicine from "./pages/FetalMedicine";
-import Ultrasound from "./pages/Ultrasound";
-import SurgerySection from "./pages/SurgerySection";
 import Lab from "./pages/Lab";
 import Gallery from "./pages/Gallery";
 import Videos from "./pages/Videos";
@@ -32,21 +29,19 @@ import Forceps from "./pages/Forceps";
 import Caesarean from "./pages/Caesarean";
 import Emergency from "./pages/Emergency";
 import Sterilisation from "./pages/Sterilisation";
+import Elective from "./pages/Elective";
 
 
 export default function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/story" element={<Ourstory />} />
         <Route path="/ourteam" element={<Ourteam />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/pregnancy-maternity" element={<PregnancyMaternity />} />
-        <Route path="/fetal-medicine" element={<FetalMedicine />} />
-        <Route path="/ultrasound" element={<Ultrasound />} />
-        <Route path="/surgery-and-procedures" element={<SurgerySection />} />
          <Route path="/lab" element={<Lab />} />
          <Route path="/gallery" element={<Gallery />} />
          <Route path="/videos" element={<Videos />} />
@@ -65,6 +60,7 @@ export default function App() {
         <Route path="/forceps" element={<Forceps />} />
         <Route path="/caesarean" element={<Caesarean />} />
         <Route path="/emergency" element={<Emergency />} />
+        <Route path="/elective" element={<Elective />} />
         <Route path="/sterilisation" element={<Sterilisation />} />
       </Routes>
       <Footer />

@@ -341,9 +341,9 @@ const Gdm = () => {
           className="story-hero-image"
         />
         <div className="story-hero-overlay">
-          <h1 className="story-hero-title">Gestational Diabetes Mellitus Treatment in Chennai</h1>
         </div>
       </div>
+       <h1 className="story-hero-title1">Gestational Diabetes Mellitus Treatment in Chennai</h1>
 
       {/* PLAN PREGNANCY SECTION */}
       <section className="plan-pregnancy-section">
@@ -351,7 +351,7 @@ const Gdm = () => {
 
           <div className="plan-left">
             <h2 className="plan-title">
-              Expert GDM Care for a Healthy <br /> <span> Pregnancy at Prolife Hospital </span>
+              Expert GDM Care for a Healthy  Pregnancy at <span> PROLIFE HOSPITAL </span>
             </h2>
 
             <p className="plan-description">
@@ -368,7 +368,7 @@ const Gdm = () => {
 
           <div className="plan-right">
             <img
-              src="/images/img/pre-pregnancy1.jpg"
+              src="/images/img/gdm3.jpg"
               alt="Pre Pregnancy Consultation"
             />
           </div>
@@ -380,7 +380,7 @@ const Gdm = () => {
         <div className="plan-container">
           <div className="plan-right">
             <img
-              src="/images/img/pre-pregnancy2.jpg"
+              src="/images/img/gdm2.jpg"
               alt="Pre Pregnancy Consultation"
             />
           </div>
@@ -447,14 +447,14 @@ High blood pressure, PCOS, Thyroid disorders, History of large babies, Obesity, 
            Read What Mothers Say →
           </a>
         </div>
-
+{/* 
         <div className="choose-img-wrapper">
           <img
-            src="/images/img/u7.webp"
+            src="/images/img/gdm1.jpg"
             alt="Pregnancy Care at Prolife"
             className="choose-img"
           />
-        </div>
+        </div> */}
       </section>
 
        <section className="services-section">
@@ -576,61 +576,72 @@ High blood pressure, PCOS, Thyroid disorders, History of large babies, Obesity, 
           Speak to our specialists today.
         </div>
 
-        <a href="#booking" className="gdm-btn">
+        <a href="/contact" className="gdm-btn">
           Book Appointment →
         </a>
       </div>
     </section>
 
-<section className="cerclage-team-section" id="team">
-        <div className="container">
-          <h2 className="section-title">Meet Our Gestational Diabetes Care Team</h2>
+     <section className="eds-section">
+        <div className="eds-container">
 
+          <div className="eds-header">
+            <h2>Meet Our Gestational Diabetes Care Team</h2>
+            <p>Skilled Hands, Compassionate Hearts</p>
+          </div>
 
-          <div className="team-grid">
-            {/* Dr. Sujitha */}
-            <div className="team-card">
-              <h3 className="doctor-name">Dr. Sujitha R  </h3>
-              <p className="designation">Consultant Gynecologist</p>
-              <p className="doctor-desc">
+          {/* Founder Highlight */}
+          <div className="eds-founder-highlight">
+            <div className="eds-founder-img">
+              <img src="./images/img/d11.png" alt="Dr. Thamarai" />
+            </div>
+
+            <div className="eds-founder-content">
+              <span className="eds-founder-tag">Founder</span>
+              <h3>Dr. Thamarai</h3>
+              <h4>Maternal – Fetal Medicine Specialist</h4>
+              <p>
+                Founder of our hospital and Expert in managing complex medical conditions before and during pregnancy—diabetes, hypertension, autoimmune disorders.
+              </p>
+            </div>
+          </div>
+
+          <div className="eds-grid">
+
+            <div className="eds-card">
+              <span className="eds-bar"></span>
+              <h3>Dr. Sujitha R – Senior Gynecologist</h3>
+              <p>
                 Specialist in high-risk pregnancies, including gestational diabetes. Known for her clarity, compassion, and consistent guidance throughout pregnancy.
               </p>
             </div>
 
 
-            {/* Dr. Thamarai */}
-            <div className="team-card">
-              <h3 className="doctor-name">Dr. Thamarai</h3>
-              <p className="designation"> Consultant Gynecologist</p>
-              <p className="doctor-desc">
-                Expert in complex pregnancy management. Patients trust her reassuring approach and careful monitoring techniques.
-              </p>
-            </div>
 
-
-            {/* Dr. Varshini */}
-            <div className="team-card">
-              <h3 className="doctor-name">Dr. Varshini</h3>
-              <p className="designation">Consultant Gynecologist</p>
-              <p className="doctor-desc">
+            <div className="eds-card">
+              <span className="eds-bar"></span>
+              <h3>Dr. Varshini – Fertility Specialist</h3>
+              <p>
                 Works closely with endocrinology and nutrition teams to deliver complete GDM care. Calm, patient, and highly supportive.
-              </p>
-              <p className="doctor-desc">Our gynecologists collaborate with:
+                Our gynecologists collaborate with:
                     Endocrinologists,
                     Dietitians,
                     Pediatricians,
                 …to ensure safe, coordinated maternal and newborn care.
               </p>
             </div>
-
           </div>
-          
-
-          <div className="center-btn">
-            <button className="cta-btn"> Meet Our Specialists</button>
+          <div className="consultation-cta">
+            <a href="/contact" className="cta-btn">
+              Have specific questions for our doctors? Book a Consultation →
+            </a>
           </div>
-        </div>
+
+      
+      </div>
       </section>
+
+
 
 <section className="why-prolife-section">
   <h2 className="section-title">Why Prolife Hospital Is Chennai’s Trusted GDM Care Centre
@@ -663,7 +674,7 @@ High blood pressure, PCOS, Thyroid disorders, History of large babies, Obesity, 
       <section className="reviews-section">
         <p className="sub-title">TESTIMONIALS</p>
         <div className="google-rating">
-          ⭐⭐⭐⭐⭐ <span>5/5 Google Rating</span>
+           <span>4.5/5 Google Rating</span>
         </div>
 
         <div className="reviews-container">
@@ -682,12 +693,12 @@ High blood pressure, PCOS, Thyroid disorders, History of large babies, Obesity, 
         </div>
 
         <a
-          href="https://g.page/r/CS9733eotKhCEBM/review"
+          href="https://www.justdial.com/Chennai/Prolife-Maternity-and-Fertility-Hospital-Near-DLF-LT-and-Chennai-Trade-Centre-Manapakkam/044PXX44-XX44-191211174423-E9K1_BZDET/reviews"
           target="_blank"
           rel="noreferrer"
           className="see-more-btn"
         >
-          ⭐ Read More Success Stories
+           Read More Success Stories
         </a>
       </section>
 

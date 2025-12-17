@@ -18,7 +18,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FaCheckCircle } from "react-icons/fa";
 
-const PrePregnancy = () => {
+const Vacuum = () => {
 
 const SERVICES = [
   {
@@ -275,7 +275,7 @@ const containerRef = useRef(null);
 
           <div className="plan-right">
             <img
-              src="/images/img/pre-pregnancy1.jpg"
+              src="/images/img/vaccum1.jpg"
               alt="Pre Pregnancy Consultation"
             />
           </div>
@@ -287,7 +287,7 @@ const containerRef = useRef(null);
         <div className="plan-container">
           <div className="plan-right">
             <img
-              src="/images/img/pre-pregnancy2.jpg"
+              src="/images/img/vaccum2.jpg"
               alt="Pre Pregnancy Consultation"
             />
           </div>
@@ -530,6 +530,23 @@ const containerRef = useRef(null);
           The success of vacuum-assisted delivery depends heavily on the skill and experience of the performing obstetrician. At Prolife Hospitals, you're in capable hands.
         </p>
 
+
+        {/* Founder Highlight */}
+          <div className="eds-founder-highlight">
+            <div className="eds-founder-img">
+              <img src="./images/img/d11.png" alt="Dr. Thamarai" />
+            </div>
+
+            <div className="eds-founder-content">
+              <span className="eds-founder-tag">Founder</span>
+              <h3>Dr. Thamarai</h3>
+              <h4>Gynecologist</h4>
+              <p>
+                Founder of our hospital and Dr. Thamarai is known for her patient-centered approach and excellent clinical judgment. With years of experience in managing labor complications, she has successfully performed numerous vacuum-assisted deliveries with optimal outcomes. Her ability to remain composed under pressure and communicate clearly with patients makes her an invaluable member of our obstetric team. Dr. Thamarai is committed to supporting natural birth processes while intervening skillfully when necessary.
+              </p>
+            </div>
+          </div>
+
         <div className="eds-grid">
 
           <div className="eds-card">
@@ -540,13 +557,7 @@ const containerRef = useRef(null);
             </p>
           </div>
 
-          <div className="eds-card">
-            <span className="eds-bar"></span>
-            <h3>Dr. Thamarai – Gynecologist</h3>
-            <p>
-              Dr. Thamarai is known for her patient-centered approach and excellent clinical judgment. With years of experience in managing labor complications, she has successfully performed numerous vacuum-assisted deliveries with optimal outcomes. Her ability to remain composed under pressure and communicate clearly with patients makes her an invaluable member of our obstetric team. Dr. Thamarai is committed to supporting natural birth processes while intervening skillfully when necessary.
-            </p>
-          </div>
+          
 
           <div className="eds-card">
             <span className="eds-bar"></span>
@@ -556,16 +567,17 @@ const containerRef = useRef(null);
             </p>
           </div>
 
+          <div className="eds-card">
+            <span className="eds-bar"></span>
+            <h3>Supporting Specialists:</h3>
+            <p>
+              Our obstetric team is supported by skilled anesthesiologists including <strong>Dr. Hari Prakash, </strong><strong>Dr. Shalini,</strong> and  <strong>Dr. Nithya Priyan,</strong>  and  who ensure your comfort throughout labor. Our pediatric specialists, <strong>Dr. Uma Maheshwari</strong>  and team, stand ready to provide immediate newborn care when needed.
+            </p>
+          </div>
+
         </div>
 
-        <div className="eds-support">
-          <h4>Supporting Specialists:</h4>
-          <p>
-           Our obstetric team is supported by skilled anesthesiologists including <strong>Dr. Hari Prakash, </strong><strong>Dr. Shalini,</strong> and  <strong>Dr. Nithya Priyan,</strong>  and  who ensure your comfort throughout labor. Our pediatric specialists, <strong>Dr. Uma Maheshwari</strong>  and team, stand ready to provide immediate newborn care when needed.
-          </p>
-        </div>
-
-      </div>
+       </div>
     </section>
 
      <section className="wcp-section">
@@ -593,7 +605,7 @@ const containerRef = useRef(null);
       <section className="reviews-section">
         <p className="sub-title">What Our Patients Say</p>
         <div className="google-rating">
-          ⭐⭐⭐⭐⭐ <span>5/5 Google Rating</span>
+       <span>4.5/5 Google Rating</span>
         </div>
 
         <div className="reviews-container">
@@ -612,12 +624,12 @@ const containerRef = useRef(null);
         </div>
 
         <a
-          href="https://g.page/r/CS9733eotKhCEBM/review"
+          href="https://www.justdial.com/Chennai/Prolife-Maternity-and-Fertility-Hospital-Near-DLF-LT-and-Chennai-Trade-Centre-Manapakkam/044PXX44-XX44-191211174423-E9K1_BZDET/reviews"
           target="_blank"
           rel="noreferrer"
           className="see-more-btn"
         >
-          ⭐ Read More Success Stories
+          Read More Success Stories
         </a>
       </section>
 
@@ -711,4 +723,4 @@ const containerRef = useRef(null);
   );
 };
 
-export default PrePregnancy;
+export default Vacuum;

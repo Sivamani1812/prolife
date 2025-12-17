@@ -19,7 +19,7 @@ import {
 import { FaUserDoctor, FaStethoscope, FaHospital, FaBaby, FaFileMedical, FaHeartCircleBolt } from "react-icons/fa6";
 import { FaCheckCircle } from "react-icons/fa";
 
-const PrePregnancy = () => {
+const Forceps = () => {
 
 const SERVICES = [
   {
@@ -349,7 +349,7 @@ const containerRef = useRef(null);
 
           <div className="plan-right">
             <img
-              src="/images/img/pre-pregnancy1.jpg"
+              src="/images/img/forceps.jpg"
               alt="Pre Pregnancy Consultation"
             />
           </div>
@@ -603,17 +603,35 @@ const containerRef = useRef(null);
           </div>
     </section>
 
-    <section className="eds-section">
+
+     <section className="eds-section">
       <div className="eds-container">
 
         <div className="eds-header">
-          <h2>Meet Our Expert Obstetricians</h2>
-          <p></p>
+          <h2>Meet Our Expert </h2>
+          <p>Skilled Hands, Compassionate Hearts</p>
         </div>
 
         <p className="eds-intro">
-          Your delivery team makes all the difference. At Prolife Hospitals, you're in capable, caring hands:
+          The success of vacuum-assisted delivery depends heavily on the skill and experience of the performing obstetrician. At Prolife Hospitals, you're in capable hands.
         </p>
+
+
+        {/* Founder Highlight */}
+          <div className="eds-founder-highlight">
+            <div className="eds-founder-img">
+              <img src="./images/img/d11.png" alt="Dr. Thamarai" />
+            </div>
+
+            <div className="eds-founder-content">
+              <span className="eds-founder-tag">Founder</span>
+              <h3>Dr. Thamarai</h3>
+              <h4>Gynecologist</h4>
+              <p>
+                Founder of our hospital and Dr. Thamarai specializes in complex labor management and has advanced training in operative vaginal delivery. She believes in empowering women through education and shared decision-making throughout their pregnancy journey.
+              </p>
+            </div>
+          </div>
 
         <div className="eds-grid">
 
@@ -621,17 +639,11 @@ const containerRef = useRef(null);
             <span className="eds-bar"></span>
             <h3>Dr. Sujitha R – Consultant Gynecologist</h3>
             <p>
-              With extensive experience in high-risk obstetrics and instrumental deliveries, Dr. Sujitha has helped countless mothers achieve safe vaginal births. Her calm demeanor and clinical precision make her one of Chennai's most trusted obstetricians.
+             With extensive experience in high-risk obstetrics and instrumental deliveries, Dr. Sujitha has helped countless mothers achieve safe vaginal births. Her calm demeanor and clinical precision make her one of Chennai's most trusted obstetricians.
             </p>
           </div>
 
-          <div className="eds-card">
-            <span className="eds-bar"></span>
-            <h3>Dr. Thamarai – Consultant Gynecologist</h3>
-            <p>
-              Dr. Thamarai specializes in complex labor management and has advanced training in operative vaginal delivery. She believes in empowering women through education and shared decision-making throughout their pregnancy journey.
-            </p>
-          </div>
+          
 
           <div className="eds-card">
             <span className="eds-bar"></span>
@@ -641,20 +653,20 @@ const containerRef = useRef(null);
             </p>
           </div>
 
+          <div className="eds-card">
+            <span className="eds-bar"></span>
+            <h3>Supporting Specialists:</h3>
+            <p>
+              Our obstetricians work alongside experienced anesthesiologists including <strong>Dr. Hari Prakash,</strong> <strong>Dr. Shalini,</strong> and <strong>Dr. Nithya Priyan,</strong> who ensure your comfort throughout labor and delivery. Our pediatric team led by <strong>Dr. Uma Maheshwari</strong> is always present to welcome and assess your newborn.
+            </p>
+          </div>
+
         </div>
 
-        <div className="eds-support">
-          <h4>Supporting Specialists:</h4>
-          <p>
-            Our obstetricians work alongside experienced anesthesiologists including <strong>Dr. Hari Prakash,</strong> <strong>Dr. Shalini,</strong> and <strong>Dr. Nithya Priyan,</strong> who ensure your comfort throughout labor and delivery. Our pediatric team led by <strong>Dr. Uma Maheshwari</strong> is always present to welcome and assess your newborn.
-          </p>
-        </div>
-        <a href="/ourteam" className="success-btn">
-          View Our Complete Team →
-        </a>
-
-      </div>
+       </div>
     </section>
+
+   
 
     <section className="pa-section">
       <div className="pa-container">
@@ -700,12 +712,12 @@ const containerRef = useRef(null);
         </div>
 
         <a
-          href="https://g.page/r/CS9733eotKhCEBM/review"
+          href="https://www.justdial.com/Chennai/Prolife-Maternity-and-Fertility-Hospital-Near-DLF-LT-and-Chennai-Trade-Centre-Manapakkam/044PXX44-XX44-191211174423-E9K1_BZDET/reviews"
           target="_blank"
           rel="noreferrer"
           className="see-more-btn"
         >
-          ⭐ Read More Success Stories
+          Read More Success Stories
         </a>
       </section>
 
@@ -800,4 +812,4 @@ const containerRef = useRef(null);
   );
 };
 
-export default PrePregnancy;
+export default Forceps;

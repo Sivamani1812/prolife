@@ -310,9 +310,10 @@ const toggleFAQ = (index) => {
           className="story-hero-image"
         />
         <div className="story-hero-overlay">
-          <h1 className="story-hero-title">Normal Vaginal Delivery (NVD) at Prolife Hospital, Chennai</h1>
+         
         </div>
       </div>
+       <h1 className="story-hero-title1">Normal Vaginal Delivery (NVD) at Prolife Hospital</h1>
 
       {/* PLAN PREGNANCY SECTION */}
       <section className="plan-pregnancy-section">
@@ -320,8 +321,7 @@ const toggleFAQ = (index) => {
 
           <div className="plan-left">
             <h2 className="plan-title">
-              Experience Natural Childbirth with <br />
-              <span>Expert Care </span>
+              Experience Natural Childbirth with <span>Expert Care </span>
             </h2>
 
             <p className="plan-description">
@@ -337,7 +337,7 @@ const toggleFAQ = (index) => {
 
           <div className="plan-right">
             <img
-              src="/images/img/pre-pregnancy1.jpg"
+              src="/images/img/nv1.jpg"
               alt="Pre Pregnancy Consultation"
             />
           </div>
@@ -364,7 +364,7 @@ const toggleFAQ = (index) => {
           ))}
         </div>
 
-        <a href="#" className="assess-btn">
+        <a href="/contact" className="assess-btn">
           Schedule a Consultation →
         </a>
       </section>
@@ -464,13 +464,13 @@ const toggleFAQ = (index) => {
     </ul>
   </div>
 
-  <div className="choose-img-wrapper">
+  {/* <div className="choose-img-wrapper">
     <img
-      src="/images/img/u7.webp"
+      src="/images/img/nv2.jpg"
       alt="Pregnancy Care at Prolife"
       className="choose-img"
     />
-  </div>
+  </div> */}
       </section>
 
       <section className="eligibility-section">
@@ -500,6 +500,23 @@ const toggleFAQ = (index) => {
         <div className="container">
           <h2 className="section-title">Meet Our Expert Obstetricians</h2>
 
+          {/* Founder Highlight */}
+          <div className="eds-founder-highlight">
+            <div className="eds-founder-img">
+              <img src="./images/img/d11.png" alt="Dr. Thamarai" />
+            </div>
+
+            <div className="eds-founder-content">
+              <span className="eds-founder-tag">Founder</span>
+              <h3>Dr. Thamarai</h3>
+              <h4>Gynecologist</h4>
+              <p>
+                Founder of our hospital and Dr. Thamarai specializes in natural childbirth and believes in empowering women through education and support. Her dedication to minimizing unnecessary interventions has helped countless mothers achieve their desired birth experiences.
+              </p>
+            </div>
+          </div>
+
+
 
           <div className="team-grid">
             {/* Dr. Sujitha */}
@@ -512,14 +529,7 @@ const toggleFAQ = (index) => {
             </div>
 
 
-            {/* Dr. Thamarai */}
-            <div className="team-card">
-              <h3 className="doctor-name">Dr. Thamarai</h3>
-              <p className="designation">Gynecologist</p>
-              <p className="doctor-desc">
-                Dr. Thamarai specializes in natural childbirth and believes in empowering women through education and support. Her dedication to minimizing unnecessary interventions has helped countless mothers achieve their desired birth experiences.
-              </p>
-            </div>
+           
 
 
             {/* Dr. Varshini */}
@@ -549,7 +559,7 @@ const toggleFAQ = (index) => {
 
       <section className="prolife-advance">
         <h2 className="prolife-heading">
-          Why <span> Prolife Hospital</span> Stands Out
+          Why <span> PROLIFE HOSPITAL</span> Stands Out
         </h2>
 
         <div className="prolife-feature-flow">
@@ -570,7 +580,7 @@ const toggleFAQ = (index) => {
       <section className="reviews-section">
   <p className="sub-title">TESTIMONIALS</p>
   <div className="google-rating">
-    ⭐⭐⭐⭐⭐ <span>5/5 Google Rating</span>
+    <span>4.5/5 Google Rating</span>
   </div>
 
   <div className="reviews-container">
@@ -589,12 +599,12 @@ const toggleFAQ = (index) => {
   </div>
 
   <a
-    href="https://g.page/r/CS9733eotKhCEBM/review"
+    href="https://www.justdial.com/Chennai/Prolife-Maternity-and-Fertility-Hospital-Near-DLF-LT-and-Chennai-Trade-Centre-Manapakkam/044PXX44-XX44-191211174423-E9K1_BZDET/reviews"
     target="_blank"
     rel="noreferrer"
     className="see-more-btn"
   >
-    ⭐ See More Reviews
+     See More Reviews
   </a>
 </section>
 

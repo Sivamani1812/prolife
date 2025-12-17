@@ -18,7 +18,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FaCheckCircle } from "react-icons/fa";
 
-const PrePregnancy = () => {
+const AssistedDelivery = () => {
 
 const SERVICES = [
   {
@@ -296,8 +296,8 @@ const containerRef = useRef(null);
           <div className="plan-left">
             
             <h2 className="plan-title">
-              Expert Assisted Delivery in Chennai  <br />
-              <span>for Safe Childbirth</span>
+              Expert Assisted Delivery in Chennai 
+              <span> for Safe Childbirth </span>
             </h2>
 
             <p className="plan-description">
@@ -314,7 +314,7 @@ const containerRef = useRef(null);
 
           <div className="plan-right">
             <img
-              src="/images/img/pre-pregnancy1.jpg"
+              src="/images/img/ad1.jpg"
               alt="Pre Pregnancy Consultation"
             />
           </div>
@@ -322,58 +322,49 @@ const containerRef = useRef(null);
         </div>
       </section>
 
+      
 <section className="ad-pro-section">
-      <div className="ad-pro-container">
+  <div className="ad-pro-container">
 
-        {/* Left Art */}
-        <div className="ad-pro-art">
-          <div className="ad-glass-orb"></div>
-          <div className="ad-glass-orb small"></div>
-          <div className="ad-hero-blur"></div>
-          <h1 className="ad-pro-title">Assisted Delivery Excellence</h1>
-        </div>
+    {/* LEFT IMAGE */}
+    <div className="ad-pro-image">
+      <img
+        src="/images/img/highrisk3.jpg"
+        alt="Assisted Delivery Care"
+      />
+      <h1 className="ad-pro-title">Assisted Delivery Excellence</h1>
+    </div>
 
-        {/* Right Content */}
-        <div className="ad-pro-content">
-          <h2>Why Choose Prolife Hospital for Assisted Delivery</h2>
-          <p className="tagline">Advanced Care When It Matters Most</p>
+    {/* RIGHT CONTENT */}
+    <div className="ad-pro-content">
+      <h2>Why Choose Prolife Hospital for Assisted Delivery</h2>
+      <p className="tagline">Advanced Care When It Matters Most</p>
 
-          <p className="desc">
-            Choosing where to deliver your baby is one of the most important decisions you'll make.
-            At Prolife Hospitals, our assisted delivery services combine decades of expertise with 
-            modern technology to navigate complex birth situations safely.
-          </p>
+      <p className="desc">
+        Choosing where to deliver your baby is one of the most important
+        decisions you'll make. At Prolife Hospitals, our assisted delivery
+        services combine decades of expertise with modern technology to
+        navigate complex birth situations safely.
+      </p>
 
-          <ul className="ad-feature-list">
-            <li>
-              <span>•</span> Experienced Obstetricians – hundreds of successful assisted deliveries.
-            </li>
+      <ul className="ad-feature-list">
+        <li>Experienced Obstetricians – hundreds of successful assisted deliveries.</li>
+        <li>24/7 Emergency Readiness – doctors & OT always on standby.</li>
+        <li>Advanced Monitoring Systems – fetal & maternal assessment.</li>
+        <li>Minimal Intervention Philosophy – only when medically required.</li>
+        <li>Complete Support Team – anesthetists, pediatricians & nurses.</li>
+      </ul>
 
-            <li>
-              <span>•</span> 24/7 Emergency Readiness – doctors + OT always on standby.
-            </li>
-
-            <li>
-              <span>•</span> Advanced Monitoring Systems – fetal heart & maternal assessment.
-            </li>
-
-            <li>
-              <span>•</span> Minimal Intervention Philosophy – only when medically required.
-            </li>
-
-            <li>
-              <span>•</span> Complete Support Team – anesthetists, pediatricians & nurses.
-            </li>
-          </ul>
-
-          <div className="ad-btn-row">
-            <button className="ad-btn primary">Schedule a Consultation</button>
-            <button className="ad-btn">Contact Us</button>
-          </div>
-        </div>
-
+      <div className="ad-btn-row">
+        <button className="ad-btn primary">Schedule a Consultation</button>
+        <button  className="ad-btn"> <a href="/contact">Contact Us</a> </button>
       </div>
-    </section>
+    </div>
+
+  </div>
+</section>
+
+
 
     <section className="asclean-section">
       <div className="asclean-container">
@@ -453,7 +444,7 @@ const containerRef = useRef(null);
         <div className="ab-timeline">
 
           <div className="ab-item">
-            <div className="ab-icon">💛</div>
+            <div className="ab-icon"><i className="fa-solid fa-heart"></i></div>
             <div className="ab-content">
               <h3>Medical Benefits</h3>
               <p>
@@ -466,7 +457,7 @@ const containerRef = useRef(null);
           </div>
 
           <div className="ab-item">
-            <div className="ab-icon">💚</div>
+            <div className="ab-icon"><i className="fa-solid fa-heart"></i></div>
             <div className="ab-content">
               <h3>Preventing Birth Complications</h3>
               <p>
@@ -478,7 +469,7 @@ const containerRef = useRef(null);
           </div>
 
           <div className="ab-item">
-            <div className="ab-icon">🌿</div>
+            <div className="ab-icon"><i className="fa-solid fa-heart"></i></div>
             <div className="ab-content">
               <h3>Emotional and Physical Recovery</h3>
               <p>
@@ -549,6 +540,22 @@ const containerRef = useRef(null);
           <p>Skilled Hands, Compassionate Hearts</p>
         </div>
 
+         {/* Founder Highlight */}
+          <div className="eds-founder-highlight">
+            <div className="eds-founder-img">
+              <img src="./images/img/d11.png" alt="Dr. Thamarai" />
+            </div>
+
+            <div className="eds-founder-content">
+              <span className="eds-founder-tag">Founder</span>
+              <h3>Dr. Thamarai</h3>
+              <h4>Gynecologist</h4>
+              <p>
+                Founder of our hospital and Dr. Thamarai specializes in natural childbirth and believes in empowering women through education and support. Her dedication to minimizing unnecessary interventions has helped countless mothers achieve their desired birth experiences.
+              </p>
+            </div>
+          </div>
+
         <p className="eds-intro">
           The success of assisted delivery depends entirely on the obstetrician's
           skill and judgment. Our team brings extensive experience in managing
@@ -568,15 +575,6 @@ const containerRef = useRef(null);
             </p>
           </div>
 
-          <div className="eds-card">
-            <span className="eds-bar"></span>
-            <h3>Dr. Thamarai – Gynecologist</h3>
-            <p>
-              Dr. Thamarai's comprehensive approach includes expertise in all
-              assisted delivery techniques. Her focus on clear communication ensures
-              families understand every decision, reducing anxiety during labor.
-            </p>
-          </div>
 
           <div className="eds-card">
             <span className="eds-bar"></span>
@@ -588,18 +586,21 @@ const containerRef = useRef(null);
             </p>
           </div>
 
-        </div>
-
-        <div className="eds-support">
-          <h4>Supporting Specialists:</h4>
-          <p>
-            Our assisted delivery team includes anesthetists like <strong>Dr. Shalini</strong>
+          
+          <div className="eds-card">
+            <span className="eds-bar"></span>
+            <h3>Supporting Specialists:</h3>
+            <p>
+               Our assisted delivery team includes anesthetists like <strong>Dr. Shalini</strong>
             and <strong>Dr. Nithya Priyan</strong> who ensure optimal pain management.
             <strong> Dr. Uma Maheshwari</strong>, our pediatrician, is always present to
             provide immediate newborn care when needed.
-          </p>
+            </p>
+          </div>
+
         </div>
 
+       
       </div>
     </section>
 
@@ -693,12 +694,12 @@ const containerRef = useRef(null);
         </div>
 
         <a
-          href="https://g.page/r/CS9733eotKhCEBM/review"
+          href="https://www.justdial.com/Chennai/Prolife-Maternity-and-Fertility-Hospital-Near-DLF-LT-and-Chennai-Trade-Centre-Manapakkam/044PXX44-XX44-191211174423-E9K1_BZDET/reviews"
           target="_blank"
           rel="noreferrer"
           className="see-more-btn"
         >
-          ⭐ Read More Success Stories
+          Read More Success Stories
         </a>
       </section>
 
@@ -798,4 +799,4 @@ const containerRef = useRef(null);
   );
 };
 
-export default PrePregnancy;
+export default AssistedDelivery;
