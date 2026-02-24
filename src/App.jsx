@@ -4,6 +4,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
+import Whatsapp from "./components/Whatsapp";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import Home from "./pages/Home";
@@ -37,6 +38,7 @@ export default function App() {
     <Router>
       <ScrollToTop />
       <Navbar />
+      <Whatsapp />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/story" element={<Ourstory />} />

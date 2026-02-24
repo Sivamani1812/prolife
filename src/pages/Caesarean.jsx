@@ -30,7 +30,7 @@ const Caesarean = () => {
     },
     {
       title: "State-of-the-Art Facilities",
-      desc: "Our modular operation theaters, advanced diagnostic labs, and well-equipped labor rooms reflect our commitment to maintaining high medical standards.",
+      desc: "Our modular operation theaters, advanced diagnostic labs, and well-equipped labour rooms reflect our commitment to maintaining high medical standards.",
     },
     {
       title: "Family-Centered Approach",
@@ -95,7 +95,7 @@ const Caesarean = () => {
     {
       title: "The Surgical Procedure",
       points: [
-        " Lower segment cesarean section (LSCS) through a small horizontal incision. Gentle delivery of your baby with immediate assessment. Partner presence encouraged during surgery when appropriate. Complete surgical care with meticulous attention to detail."
+        " Lower segment cesarean section (LSCS) through a small horizontal incision. Gentle delivery of your baby with immediate assessment. Partner presence is encouraged during surgery when appropriate. Complete surgical care with meticulous attention to detail."
       ]
     },
     {
@@ -169,7 +169,7 @@ const Caesarean = () => {
 
   const reviewsData = [
     {
-      text: "I needed an emergency cesarean after 18 hours of labor. Dr. Sujitha explained everything clearly despite the urgency, and the surgery went perfectly. My daughter is healthy, and I recovered faster than expected. The entire team made a scary situation feel manageable",
+      text: "I needed an emergency cesarean after 18 hours of labour. Dr. Sujitha explained everything clearly despite the urgency, and the surgery went perfectly. My daughter is healthy, and I recovered faster than expected. The entire team made a scary situation feel manageable",
       name: "Meena K., First-time mother, Porur",
       avatar: "M",
       rating: 5
@@ -415,14 +415,14 @@ const Caesarean = () => {
             <div className="asclean-card">
               <h3>Protects Your Baby When Complications Arise</h3>
               <p>
-                Fetal distress, cord prolapse, abnormal position, or labor that doesn't progress—cesarean delivery can be lifesaving. Our surgical team responds quickly when emergency situations develop during labor.
+                Fetal distress, cord prolapse, abnormal position, or labour that doesn't progress—cesarean delivery can be lifesaving. Our surgical team responds quickly when emergency situations develop during labour.
               </p>
             </div>
 
             <div className="asclean-card">
               <h3>Planned C-Section Reduces Delivery Anxiety</h3>
               <p>
-                For scheduled cesareans, you know exactly when your baby arrives. No waiting for labor, no uncertainty about timing. This helps you prepare mentally, arrange family support, and approach delivery with confidence rather than fear.
+                For scheduled cesareans, you know exactly when your baby arrives. No waiting for labour, no uncertainty about timing. This helps you prepare mentally, arrange family support, and approach delivery with confidence rather than fear.
               </p>
             </div>
 
@@ -467,13 +467,13 @@ const Caesarean = () => {
               <span className="trimester-tag">Emergency Cesarean Situations</span>
             </div>
             <ul>
-              <li>Fetal distress during labor</li>
+              <li>Fetal distress during labour</li>
               <li>Labor not progressing despite hours of trying</li>
               <li>Umbilical cord prolapse or compression</li>
               <li>Placental abruption threatening baby's oxygen supply</li>
               <li>Uterine rupture risk in previous cesarean scar</li>
               <li>Severe preeclampsia requiring immediate delivery</li>
-              <li>Sudden maternal health complications during labor</li>
+              <li>Sudden maternal health complications during labour</li>
             </ul>
           </div>
 
@@ -509,7 +509,7 @@ const Caesarean = () => {
         </div>
 
         <p className="eds-intro">
-          The success of vacuum-assisted delivery depends heavily on the skill and experience of the performing obstetrician. At Prolife Hospitals, you're in capable hands.
+          The success of a Caesarean delivery depends heavily on the skill and experience of the performing obstetrician. At Prolife Hospitals, you're in capable hands.
         </p>
 
 
@@ -595,7 +595,7 @@ const Caesarean = () => {
           <h2 className="wp-title"><strong>Why Choose Prolife Hospital for Your C-Section?</strong></h2>
 
           <div className="wp-grid fade-up">
-            <div className="wp-item slide-in-left">10+ Years serving Chennai families with surgical excellence</div>
+            <div className="wp-item slide-in-left">10+ Years of serving Chennai families with surgical excellence</div>
             <div className="wp-item slide-in-right"> 2,500+ Successful Deliveries including complex cesarean cases</div>
             <div className="wp-item slide-in-left">Modular Operation Theaters with advanced surgical equipment
             </div>
@@ -614,7 +614,7 @@ const Caesarean = () => {
           </div>
 
           <div className="wp-btn-wrapper fade-up">
-            <button className="wp-cta-btn">Learn More About Our Hospital</button>
+            <button className="wp-cta-btn"><a href="/story">Learn More About Our Hospital</a> </button>
           </div>
         </div>
       </section>
@@ -664,7 +664,7 @@ const Caesarean = () => {
                    Sunday: 9 AM - 2 PM</p>
                    <p><b>Emergency Obstetric Care:</b> <br /> Available 24/7</p>
 
-                <button className="appointment-btn">Book Appointment Online </button>
+                <a href="/contact" className="appointment-btn"> Book Appointment Online </a>
               </div>
             </div>
           </div>
@@ -708,8 +708,8 @@ const Caesarean = () => {
           <h1>
            Prolife Hospital — Your trusted LSCS delivery hospital in Chennai for safe, compassionate cesarean care.
           </h1>
-          <button className="lab-btn">
-          Start Your Journey Today →
+          <button className="lab-btn"> <a href="/contact">
+          Start Your Journey Today → </a>
         </button>
         </div>
         

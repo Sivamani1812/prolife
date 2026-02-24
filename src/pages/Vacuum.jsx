@@ -165,7 +165,7 @@ const containerRef = useRef(null);
   
   const reviewsData = [
     {
-      text: " was anxious when my doctor mentioned vacuum delivery might be needed, but the team at Prolife explained everything so clearly. Dr. Sujitha's skill and the staff's support made all the difference. My baby and I are both healthy, and I'm grateful for their expertise",
+      text: "I was anxious when my doctor mentioned vacuum delivery might be needed, but the team at Prolife explained everything so clearly. Dr. Sujitha's skill and the staff's support made all the difference. My baby and I are both healthy, and I'm grateful for their expertise",
       name: " Priya M., Manapakkam",
       avatar: "P",
       rating: 5
@@ -297,7 +297,7 @@ const containerRef = useRef(null);
             </h2>
 
             <p className="plan-description">
-              Vacuum delivery, also known as vacuum-assisted vaginal delivery or vacuum extraction, is a medical procedure used during childbirth to help guide the baby through the birth canal. During this procedure, a specially designed soft cup is gently placed on the baby's head, connected to a vacuum pump that creates controlled suction. This allows the obstetrician to assist with the baby's descent while the mother pushes during contractions.
+              Vacuum delivery, also known as vacuum-assisted vaginal delivery or vacuum extraction, is a medical procedure used during childbirth to help guide the baby through the birth canal. During this procedure, a specially designed soft cup is gently placed on the baby's head, connected to a vacuum pump that creates controlled suction. This allows the obstetrician to assist with the baby's descent while you pushes during contractions.
             </p>
             <p className="plan-description">
               This technique has been safely used for decades and serves as an alternative to cesarean section in specific situations. The procedure is performed only by trained obstetricians who carefully monitor both maternal and fetal well-being throughout the process.
@@ -542,7 +542,7 @@ const containerRef = useRef(null);
               <h3>Dr. Thamarai</h3>
               <h4>Gynecologist</h4>
               <p>
-                Founder of our hospital and Dr. Thamarai is known for her patient-centered approach and excellent clinical judgment. With years of experience in managing labor complications, she has successfully performed numerous vacuum-assisted deliveries with optimal outcomes. Her ability to remain composed under pressure and communicate clearly with patients makes her an invaluable member of our obstetric team. Dr. Thamarai is committed to supporting natural birth processes while intervening skillfully when necessary.
+                As the founder of our hospital, Dr. Thamarai is known for her patient-centered approach and excellent clinical judgment. With years of experience in managing labor complications, she has successfully performed numerous vacuum-assisted deliveries with optimal outcomes. Her ability to remain composed under pressure and communicate clearly with patients makes her an invaluable member of our obstetric team. Dr. Thamarai is committed to supporting natural birth processes while intervening skillfully when necessary.
               </p>
             </div>
           </div>
@@ -571,7 +571,7 @@ const containerRef = useRef(null);
             <span className="eds-bar"></span>
             <h3>Supporting Specialists:</h3>
             <p>
-              Our obstetric team is supported by skilled anesthesiologists including <strong>Dr. Hari Prakash, </strong><strong>Dr. Shalini,</strong> and  <strong>Dr. Nithya Priyan,</strong>  and  who ensure your comfort throughout labor. Our pediatric specialists, <strong>Dr. Uma Maheshwari</strong>  and team, stand ready to provide immediate newborn care when needed.
+              Our obstetric team is supported by skilled anesthesiologists including <strong>Dr. Hari Prakash, </strong><strong>Dr. Shalini,</strong> and  <strong>Dr. Nithya Priyan,</strong> who ensure your comfort throughout labor. Our pediatric specialists, <strong>Dr. Uma Maheshwari</strong>  and team, stand ready to provide immediate newborn care when needed.
             </p>
           </div>
 
@@ -642,7 +642,7 @@ const containerRef = useRef(null);
                 <h2>Ready to Experience Expert Maternity Care?</h2>
                 <p>Choosing Prolife Hospitals means choosing expertise, compassion, and comprehensive support for your delivery journey. Whether you're planning ahead or facing an unexpected turn during labor, our team is prepared to provide the skilled care you deserve.</p>
                 <p><b>Emergency Care:</b> <br /> Available 24/7</p>
-                <button className="appointment-btn">Book Your Appointment Now → </button>
+                <a href="/contact" className="appointment-btn">Book Your Appointment Now → </a>
               </div>
             </div>
           </div>

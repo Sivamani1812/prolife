@@ -332,7 +332,7 @@ const containerRef = useRef(null);
         src="/images/img/highrisk3.jpg"
         alt="Assisted Delivery Care"
       />
-      <h1 className="ad-pro-title">Assisted Delivery Excellence</h1>
+      <h1 className="ad-pro-title"> Assisted Delivery Excellence</h1>
     </div>
 
     {/* RIGHT CONTENT */}
@@ -356,7 +356,7 @@ const containerRef = useRef(null);
       </ul>
 
       <div className="ad-btn-row">
-        <button className="ad-btn primary">Schedule a Consultation</button>
+        <button className="ad-btn primary"><a href="/contact">Schedule a Consultation</a></button>
         <button  className="ad-btn"> <a href="/contact">Contact Us</a> </button>
       </div>
     </div>
@@ -591,8 +591,7 @@ const containerRef = useRef(null);
             <span className="eds-bar"></span>
             <h3>Supporting Specialists:</h3>
             <p>
-               Our assisted delivery team includes anesthetists like <strong>Dr. Shalini</strong>
-            and <strong>Dr. Nithya Priyan</strong> who ensure optimal pain management.
+               Our assisted delivery team includes anesthetists like <strong>Dr. Shalini</strong> and <strong>Dr. Nithya Priyan</strong> who ensure optimal pain management.
             <strong> Dr. Uma Maheshwari</strong>, our pediatrician, is always present to
             provide immediate newborn care when needed.
             </p>
@@ -727,7 +726,7 @@ const containerRef = useRef(null);
                 <h3>Expert Guidance for Every Birth Scenario</h3>
                 <p>Whether you're planning your delivery or facing unexpected labor complications, Prolife Hospitals provides the expertise you need for the safest possible outcome.</p>
                 <p><b>Emergency Care:</b> <br /> Available 24/7</p>
-                <button className="appointment-btn">Book Appointment Online → </button>
+                <a href="/contact" className="appointment-btn">Book Appointment Online → </a>
               </div>
             </div>
           </div>

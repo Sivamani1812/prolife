@@ -262,7 +262,7 @@ useEffect(() => {
         <div className="trust-icon">
           <i className="fa-solid fa-award fa-3x"></i>
         </div>
-        <h3>Two Decades of Experience</h3>
+        <h3>A Decade of Excellence</h3>
         <p>
           Thousands of successful deliveries and fertility cases backed by
           skilled clinical judgment for safer outcomes.

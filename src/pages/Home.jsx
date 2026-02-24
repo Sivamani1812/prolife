@@ -72,7 +72,7 @@ const Home = () => {
     {
       question: "How do I book my first appointment?",
       answer:
-        " Call our reception at [phone number], use our online booking system, or visit the hospital directly. First-time patients should bring any previous medical records and current medications list."
+        " Call our reception at [8220305887 / 7305737051 / 9790896211], use our online booking system, or visit the hospital directly. First-time patients should bring any previous medical records and current medications list."
     },
     {
       question: "Do you provide emergency services?",
@@ -106,21 +106,20 @@ const Home = () => {
   };
 
   const doctorsData = [
-    { img: "./images/img/d12.png", name: "DR.UMA MAHESHWARI", specialization: "Pediatrics" },
-    { img: "./images/img/d19.jpeg", name: "DR.PAVITHRA", specialization: "General Medican" },
-    { img: "./images/img/d20.jpg", name: "DR.HARI PRIYA", specialization: "General Medican" },
-    { img: "./images/img/d7.png", name: "DR.SATHYA MOORTHY", specialization: "General Phydician" },
-    { img: "./images/img/d.png", name: "DR.MOHANRAJ", specialization: "General Surgeon" },
-    { img: "./images/img/d6.png", name: "DR.PAULIA DEVI", specialization: "General Surgeon" },
-    { img: "./images/img/d.png", name: "DR.AADHAISHA", specialization: "Dermatologist" },
-    { img: "./images/img/d.png", name: "DR.ASHOK", specialization: "Gynecology" },
-    { img: "./images/img/d.png", name: "DR.SUGAPRAKASH", specialization: "Gynecology" },
-    { img: "./images/img/d.png", name: "DR.VASANTH", specialization: "Urologist" },
-    { img: "./images/img/d.png", name: "DR.GERALD", specialization: "Oncologist" },
-    { img: "./images/img/d.png", name: "DR.SIVAKUMAR", specialization: "Oncologist" },
-    { img: "./images/img/d.png", name: "DR.MEENAXI", specialization: "ENT" },
+    { img: "./images/img/d12.png", name: "Dr. Uma Maheshwari", specialization: "Pediatrician" },
+    { img: "./images/img/d19.jpeg", name: "Dr. Pavithra", specialization: "General Medicine" },  
+    { img: "./images/img/d20.jpg", name: "Dr. Hari Priya", specialization: "General Medicine" },
+    { img: "./images/img/d7.png", name: "Dr. Sathya Moorthy", specialization: "General Physician" },
+    { img: "./images/img/d32.jpg", name: "Dr. Mohanraj", specialization: "General Surgeon" },
+    { img: "./images/img/d6.png", name: "Dr. Paulia Devi", specialization: "General Surgeon" },
+    { img: "./images/img/d32.jpg", name: "Dr. Aadhaisha", specialization: "Dermatologist" },
+    { img: "./images/img/d32.jpg", name: "Dr. Ashok", specialization: "Gynecologist" },
+    { img: "./images/img/d32.jpg", name: "Dr. Samuel", specialization: "Orthopedics" },
+    { img: "./images/img/d32.jpg", name: "Dr. Sneha", specialization: "pediatrician" },
+     { img: "./images/img/d32.jpg", name: "Dr. Prema Prathicksha", specialization: "DMO" },
+    { img: "./images/img/d32.jpg", name: "Dr. Gerald", specialization: "Oncologist" },
+    { img: "./images/img/d32.jpg", name: "Dr. Meenaxi", specialization: "ENT" },
   ];
-
 
   const reviewsData = [
     {
@@ -130,7 +129,7 @@ const Home = () => {
       rating: 5
     },
     {
-      text: "It's was a beautiful and pleasant experience and journey with Prolife Hospital and Dr.Thamarai Ram during planning for pregnancy, pregnancy, delivery and post delivery. Warmth, hospitality and helping tendency during delivery time makes our life easy and to be appreciated. Hope and trust this will be continued in years to come.",
+      text: "It was a beautiful and pleasant experience and journey with Prolife Hospital and Dr.Thamarai Ram during planning for pregnancy, pregnancy, delivery and post delivery. Warmth, hospitality and helping tendency during delivery time makes our life easy and to be appreciated. Hope and trust this will be continued in years to come.",
       name: "Sreya",
       avatar: "S",
       rating: 5
@@ -517,8 +516,6 @@ const Home = () => {
       </section>
 
 
-
-
       <section className="home-doc-slider">
         <h2 className="home-doc-title">Our Medical Team</h2>
         <h5 className="home-doc-subtitle">Board-Certified Specialists</h5>
@@ -530,11 +527,11 @@ const Home = () => {
           </div>
 
           <div className="eds-founder-content">
-            <span className="eds-founder-tag">Founder</span>
-            <h3>Dr. Thamarai</h3>
-            <h4>Gynecologist</h4>
+            {/* <span className="eds-founder-tag">Founder</span> */}
+            <h3>Dr.Thamarai Ram <span>MBBS.,DGO.,</span> </h3>
+            <h4>Maternity & Fertility Gynecologist</h4>
             <p>
-              Founder of our hospital and Dr. Thamarai specializes in natural childbirth and believes in empowering women through education and support. Her dedication to minimizing unnecessary interventions has helped countless mothers achieve their desired birth experiences.
+              Founder of our hospital and Dr. Thamarai specializes in natural childbirth. - As the founder of our hospital, Dr. Thamarai specializes in.
             </p>
           </div>
         </div>
@@ -559,7 +556,7 @@ const Home = () => {
                   }`}
               >
                 {doc.isFounder && (
-                  <span className="founder-mini">Founder</span>
+                  <span className="founder-mini"></span>
                 )}
 
                 <img src={doc.img} alt={doc.name} />

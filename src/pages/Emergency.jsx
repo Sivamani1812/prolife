@@ -358,7 +358,7 @@ const Emergency = () => {
           <div className="plan-right">
             <img
               src="/images/img/emergency1.jpg"
-              alt="Pre Pregnancy Consultation"
+              alt="Pre-Pregnancy Consultation"
             />
           </div>
 
@@ -370,7 +370,7 @@ const Emergency = () => {
           <div className="plan-right">
             <img
               src="/images/img/emergency2.jpg"
-              alt="Pre Pregnancy Consultation"
+              alt="Pre-Pregnancy Consultation"
             />
           </div>
           <div className="plan-left">
@@ -386,7 +386,7 @@ const Emergency = () => {
             </p>
             <p className="plan-description"> <b>Emergency LSCS is needed when waiting even a few minutes could be risky. Some common reasons include:</b>
               <ul>
-                <li>Baby’s heart rate dropping (fetal distress)Umbilical cord </li>
+              <li>Baby’s heart rate dropping (fetal distress) Umbilical cord </li>
                 <li>slipping out (cord prolapse)</li>
                 <li>Heavy bleeding due to placental problems</li>
                 <li>
@@ -499,7 +499,7 @@ const Emergency = () => {
               <span className="trimester-tag">Surgical Procedure (15-30 Minutes)</span>
             </div>
             <ul>
-              <li>Consent process with clear explanation of why surgery is needed, anesthesia team assessment and preparation for spinal or epidural anesthesia, IV line placement for medications and fluids, pre-operative blood work if time permits, and catheter insertion and surgical site preparation.</li>
+              <li>Anesthesia administration ensuring you're comfortable and pain-free, sterile field preparation, lower segment incision—typically horizontal and low on the uterus, baby delivery within minutes of starting, placenta removal and uterine repair, and layer-by-layer closure with dissolvable stitches. </li>
             </ul>
           </div>
            <div className="timeline-card">
@@ -805,7 +805,7 @@ const Emergency = () => {
                   Monday - Saturday: 9 AM - 8 PM <br />
                   Sunday: 9 AM - 2 PM</p>
                 <p><b>Emergency Care:</b> <br /> Available 24/7</p>
-                <button className="appointment-btn"> Schedule Prenatal Consultation → </button>
+                 <a href="/contact" className="appointment-btn">Schedule Prenatal Consultation → </a> 
               </div>
             </div>
           </div>

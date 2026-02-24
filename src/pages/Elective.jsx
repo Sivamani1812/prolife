@@ -241,7 +241,7 @@ const Elective = () => {
     {
       question: "When can I start breastfeeding?",
       answer:
-        "Usually within an hour of delivery, once you're moved to the recovery room. Our nurses help you find comfortable positions that don't pressure your incision. Cesarean birth doesn't prevent successful breastfeeding."
+        "Usually within an hour of delivery, once you're moved to the recovery room. Our nurses help you find comfortable positions that don't pressure your incision. Caesarean birth doesn't prevent successful breastfeeding."
     },
     {
       question: "How long is the hospital stay?",
@@ -410,7 +410,7 @@ const Elective = () => {
               <span className="trimester-tag">Surgery Day Coordination</span>
             </div>
             <ul>
-              <li>Check-in assistance and pre-surgery preparations, IV line placement and prophylactic antibiotic administration, fetal heart monitoring before you enter the OT, calming environment with staff who answer last-minute questions.</li>
+              <li>Check-in assistance and pre-surgery preparations, Performing IV line placement and prophylactic antibiotic administration, fetal heart monitoring before you enter the OT, calming environment with staff who will answer last-minute questions.</li>
             </ul>
           </div>
            <div className="timeline-card">
@@ -533,14 +533,14 @@ const Elective = () => {
         <div className="ans-panels">
 
           <div className="ans-panel">
-            <span className="ans-label">Previous Cesarean Delivery</span>
+            <span className="ans-label">Previous Caesarean Delivery</span>
             <p>
-              Planning VBAC (vaginal birth after cesarean) isn't always the safest option. If your doctor recommends a repeat cesarean, we make it as smooth as possible.
+              Planning a VBAC (vaginal birth after cesarean) isn't always the safest option. If your doctor recommends a repeat cesarean, we make it as smooth as possible.
             </p>
           </div>
 
           <div className="ans-panel">
-            <span className="ans-label">Breach or Transverse Baby Position</span>
+            <span className="ans-label">Baby in breech or transverse position</span>
             <p>
                When your baby won't turn head-down despite attempts, planned cesarean avoids labor complications.
             </p>
@@ -549,7 +549,7 @@ const Elective = () => {
           <div className="ans-panel">
             <span className="ans-label"> Placenta Previa or Low-Lying Placenta</span>
             <p>
-              If placenta blocks the birth canal, vaginal delivery becomes dangerous. Cesarean is the safe route.
+              If placenta blocks the birth canal, vaginal delivery becomes dangerous. Caesarean is the safe route.
             </p>
           </div>
 
@@ -631,7 +631,6 @@ const Elective = () => {
 
       
         <div className="eds-grid">
-
           <div className="eds-card">
             <span className="eds-bar"></span>
             <h3>Dr. Sujitha R – Senior Gynecologist & Obstetrician</h3>
@@ -646,7 +645,7 @@ const Elective = () => {
             <span className="eds-bar"></span>
             <h3>Dr. Varshini – Obstetrician</h3>
             <p>
-             Dr. Varshini combines modern obstetric practices with compassionate patient care. Known for her skill in performing clean cesarean sections with minimal scarring, she pays attention to both medical outcomes and cosmetic results. First-time mothers especially value her reassuring presence and clear communication.
+             Dr. Varshini combines modern obstetric practices with compassionate patient care. Known for her skill in performing clean cesarean sections with a focus on minimal scarring, she pays attention to both medical outcomes and cosmetic results. First-time mothers especially value her reassuring presence and clear communication.
             </p>
           </div>
 
@@ -685,7 +684,7 @@ const Elective = () => {
       <section className="eligibility-section">
         <div className="eligibility-container">
           <h2 className="eligibility-title">
-            Why Prolife Hospital for Cesarean Delivery Services in Chennai?
+            Why Prolife Hospital for Caesarean Delivery Services in Chennai?
           </h2>
 
           <div className="eligibility-rows">
@@ -763,10 +762,10 @@ const Elective = () => {
                   Monday - Saturday: 9 AM - 8 PM <br />
                   Sunday: 9 AM - 2 PM</p>
                 <p><b> Emergency Obstetric Care:</b> <br /> Available 24/7</p>
-                <button className="appointment-btn"> Book Appointment Online → </button>
+                <a href="/contact" className="appointment-btn">Book Appointment Online → </a>
               </div>
             </div>
-          </div>
+          </div> 
         </div>
       </section>
 
@@ -792,8 +791,8 @@ const Elective = () => {
           <h1>
            Prolife Hospital — Best hospital for elective LSCS in Chennai. Your safety, your comfort, your choice.
          </h1>
-          <button className="lab-btn">
-              Plan Your Cesarean Delivery Today →
+          <button className="lab-btn"> 
+            <a href="/contact">Plan Your Caesarean Delivery Today →</a> 
           </button>
         </div>
       </section>

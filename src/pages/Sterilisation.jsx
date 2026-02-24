@@ -354,7 +354,7 @@ const Sterilisation = () => {
           <div className="plan-right">
             <img
               src="/images/img/str1.jpg"
-              alt="Pre Pregnancy Consultation"
+              alt="Pre-Pregnancy Consultation"
             />
           </div>
 
@@ -366,7 +366,7 @@ const Sterilisation = () => {
           <div className="plan-right">
             <img
               src="/images/img/str2.jpg"
-              alt="Pre Pregnancy Consultation"
+              alt="Pre-Pregnancy Consultation"
             />
           </div>
           <div className="plan-left">
@@ -462,8 +462,7 @@ const Sterilisation = () => {
                 <b>Surgical Planning</b>  We schedule your delivery date (typically 38-39 weeks), explain the procedure timeline, discuss anesthesia options, and answer family members' questions.</li><li>
                 <b>Consent Process</b>  Detailed counseling about sterilisation's permanence, success rates, potential risks, and confirmation that this decision is voluntary and informed.</li>
               <li>
-                <b>Pre-Operative Preparation</b>
-                Clear instructions about fasting, medication adjustments, what to bring to hospital, and when to arrive on surgery day.</li>
+                <b>Pre-Operative Preparation.</b> Clear instructions about fasting, medication adjustments, what to bring to hospital, and when to arrive on surgery day.</li>
             </ul>
           </div>
 
@@ -489,13 +488,11 @@ const Sterilisation = () => {
             <ul>
               <li><b>Recovery Room</b> Monitoring You'll spend initial hours in recovery where staff monitors vital signs, checks bleeding, ensures anesthesia wears off safely, and supports early breastfeeding.</li><li>
                 <b>Pain Management</b> Adequate pain relief through medications helps you move, feed your baby, and recover comfortably without unnecessary suffering.</li><li>
-                <b>Breastfeeding Support</b>Our nurses assist with proper positioning, latching techniques, and troubleshooting any difficulties so you can bond with your newborn immediately.</li>
+                <b>Breastfeeding Support</b> Our nurses assist with proper positioning, latching techniques, and troubleshooting any difficulties so you can bond with your newborn immediately.</li>
               <li>
-                <b>Hospital Stay</b>
-                 Most mothers stay 3-4 days for observation, wound care, and recovery support before discharge with complete post-operative instructions.</li>
+                <b>Hospital Stay</b> Most mothers stay 3-4 days for observation, wound care, and recovery support before discharge with complete post-operative instructions.</li>
                  <li>
-                <b>Post-Discharge</b>
-                  Follow-Up We schedule checkups to monitor healing, remove stitches if needed, address concerns, and ensure both you and baby are thriving.</li>
+                <b>Post-Discharge</b> Follow-Up We schedule checkups to monitor healing, remove stitches if needed, address concerns, and ensure both you and baby are thriving.</li>
             </ul>
           </div>
 
@@ -773,7 +770,7 @@ const Sterilisation = () => {
                   Monday - Saturday : 9 AM - 8 PM <br />
                   Sunday : 9 AM - 2 PM</p>
                 <p><b>Emergency Care:</b> <br /> Available 24/7</p>
-                <button className="appointment-btn"> Book Appointment Online  → </button>
+                 <a href="/contact" className="appointment-btn"> Book Appointment Online  → </a>
               </div>
             </div>
           </div>
@@ -802,8 +799,8 @@ const Sterilisation = () => {
           <h1>
            Prolife Hospital — Best hospital for C-section with sterilisation in Chennai 
           </h1>
-          <button className="lab-btn">
-             Plan Your Delivery with Confidence →
+          <button className="lab-btn"> <a href="/contact">
+             Plan Your Delivery with Confidence →</a>
           </button>
         </div>
       </section>

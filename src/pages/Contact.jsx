@@ -66,15 +66,18 @@ const Contact = () => {
           
           <div className="contact-right">
             <div className="info-box">
+      <a href="tel:91-9790869211">
               <span><i className="fa-solid fa-phone fa-lg"></i></span>
               <h4>Phone Number</h4>
-              <p>8220305887 / 7305737051 / 9790869211</p>
+              <p>8220305887 / 7305737051 / 9790869211</p></a>
             </div>
 
             <div className="info-box">
+            <a href="prolifehospitalog@gmail.com">
+
               <span><i className="fa-solid fa-envelope fa-lg"></i></span>
               <h4>Email Address</h4>
-              <p>prolifehospitalog@gmail.com</p>
+              <p>prolifehospitalog@gmail.com</p></a>
             </div>
 
             <div className="info-box">

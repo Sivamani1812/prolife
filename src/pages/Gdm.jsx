@@ -231,13 +231,13 @@ const Gdm = () => {
 
   const reviewsData = [
     {
-      text: "I was devastated when diagnosed with gestational diabetes at 26 weeks. The team at Prolife, especially Dr. Sujitha, made everything manageable. The dietitian helped me enjoy my favorite foods in balanced portions, and the frequent check-ups gave me peace of mind. My baby girl was born healthy at 38 weeks, and my sugar levels returned to normal after delivery",
+      text: "I was devastated when diagnosed with gestational diabetes at 26 weeks. The team at Prolife, especially Dr. Sujitha, made everything manageable. The dietitian helped me enjoy my favorite foods in balanced portions, and the frequent check-ups gave me peace of mind. My baby girl was born healthy at 38 weeks, and my sugar levels returned to normal after delivery.",
       name: "  Priya S., Manapakkam",
       avatar: "P",
       rating: 5
     },
     {
-      text: "As a working professional, I was worried about managing diabetes during pregnancy. Prolife's flexible appointment scheduling and clear instructions made it possible. Dr. Varshini was always available for my questions, even after clinic hours. I'm grateful for their support throughout my journey",
+      text: "As a working professional, I was worried about managing diabetes during pregnancy. Prolife's flexible appointment scheduling and clear instructions made it possible. Dr. Varshini was always available for my questions, even after clinic hours. I'm grateful for their support throughout my journey.",
       name: "Lakshmi R., Porur",
       avatar: "L",
       rating: 5
@@ -391,10 +391,8 @@ const Gdm = () => {
 
             <p className="plan-description">
             Gestational Diabetes Mellitus is a condition where blood sugar levels rise during pregnancy due to hormonal changes. It usually develops between 24–28 weeks and affects 7–10% of pregnant women in India.
-
             </p>
-            <p className="plan-description">Gestational Diabetes Mellitus is a condition where blood sugar levels rise during pregnancy due to hormonal changes. It usually develops between 24–28 weeks and affects 7–10% of pregnant women in India.
-            </p>
+           
             <a href="/contact" className="plan-btn">
               Learn About GDM Care →
             </a>
@@ -601,7 +599,7 @@ High blood pressure, PCOS, Thyroid disorders, History of large babies, Obesity, 
               <h3>Dr. Thamarai</h3>
               <h4>Maternal – Fetal Medicine Specialist</h4>
               <p>
-                Founder of our hospital and Expert in managing complex medical conditions before and during pregnancy—diabetes, hypertension, autoimmune disorders.
+                Founder of our hospital and an expert in managing complex medical before and during pregnancy—diabetes, hypertension, autoimmune disorders.
               </p>
             </div>
           </div>
@@ -650,7 +648,7 @@ High blood pressure, PCOS, Thyroid disorders, History of large babies, Obesity, 
   <div className="prolife-grid-pregnancy">
     {[
       "  Advanced Ultrasound & Lab Services",
-      " 24/7 Emergency Support for Pregnant Mom",
+      " 24/7 Emergency Support for Pregnant Moms",
       "Affordable, Transparent Pricing",
       "Tailored Nutrition + Lifestyle Support",
       " High Success Rate in Managing GDM",
@@ -665,7 +663,7 @@ High blood pressure, PCOS, Thyroid disorders, History of large babies, Obesity, 
   </div>
 
   <div className="prolife-cta">
-    <a href="/about" className="cta-btn">Book Appointment Now →</a>
+    <a href="/story" className="cta-btn">Book Appointment Now →</a>
   </div>
 </section>
 
@@ -708,7 +706,7 @@ High blood pressure, PCOS, Thyroid disorders, History of large babies, Obesity, 
           <div className="journey-grid">
             <div className="journey-image">
               <div className="journey-content">
-                <h2>Book Your Cervical Cerclage Consultation</h2>
+                <h2>Book Your GDM Consultation</h2>
                 <p>Don't let gestational diabetes overwhelm you. With proper care and support, you can have a healthy pregnancy and deliver a thriving baby. Our team at Prolife Hospitals is ready to guide you through every step.</p>
                 
                 <p> <b>Consultation Hours:</b> <br />

@@ -25,7 +25,7 @@ const Thyroid = () => {
     {
       title: "General Medicine",
       desc:
-        " Comprehensive health assessments and management of chronic conditions that often accompany hypertension, including diabetes, high cholesterol, and thyroid disorders.",
+        " Comprehensive health assessments and management of chronic conditions that often accompany thyroid imbalances, including diabetes, hormonal issues, and metabolic disorders.",
       icon: faUserMd,
     },
     {
@@ -37,19 +37,19 @@ const Thyroid = () => {
     {
       title: "Dietary Counseling",
       desc:
-        "Nutritional guidance specifically designed to support blood pressure management through heart-healthy eating patterns like the DASH diet.",
+        "Nutritional guidance designed to support thyroid function, manage metabolism, and address weight changes associated with thyroid conditions.",
       icon: faHeartbeat,
     },
     {
       title: "Diabetes Management",
       desc:
-        " Integrated care for patients managing both diabetes and hypertension, as these conditions often occur together and require coordinated treatment.",
+        " Integrated care for patients managing metabolic conditions, including diabetes and thyroid imbalances, which often require coordinated nutritional and medical support.",
       icon: faMicroscope,
     },
     {
       title: "Kidney Disease Management",
       desc:
-        " Specialized care for hypertension related to kidney disease or for protecting kidney function in hypertensive patients through our urology and general medicine departments.",
+        " Specialized care for kidney health, as thyroid imbalances can impact renal function and electrolyte balance, managed through our urology and general medicine departments.",
       icon: faStethoscope,
     },
   ];
@@ -218,7 +218,7 @@ const containerRef = useRef(null);
   const reviewsData = [
     {
       text: "After months of feeling exhausted and gaining weight despite exercising, I finally found answers at Prolife. Dr. Sujitha diagnosed my hypothyroidism and started treatment immediately. Within weeks, I felt like myself again. The entire team was supportive and patient with all my questions",
-      name: " Priya M., Chennai",
+      name: " Priya M.'s, Chennai",
       avatar: "P",
       rating: 5
     },
@@ -843,7 +843,7 @@ const cardVariants = {
                 <button
                   className="rs-cta"
                   aria-label={`Learn more about ${s.title}`}
-                >
+                > 
                   Learn More →
                 </button>
               </article>
@@ -857,7 +857,7 @@ const cardVariants = {
         <h2>Take the First Step Toward Better Thyroid Health</h2>
         <p>
           You don't have to live with unexplained fatigue, weight struggles, or other symptoms that
-          diminish your quality of life. Our thyroid doctor Chennai team is ready to help you
+          diminish your quality of life. Our thyroid specialists in Chennai is ready to help you
           understand what's happening in your body and develop a treatment plan that works for your
           lifestyle.
         </p>
@@ -884,7 +884,7 @@ const cardVariants = {
           care you deserve.
         </p>
 
-        <a href="#appointment" className="cta-button">
+        <a href="/contact" className="cta-button">
           Book an Appointment
         </a>
       </div>

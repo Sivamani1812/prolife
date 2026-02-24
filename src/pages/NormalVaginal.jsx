@@ -114,12 +114,6 @@ const NormalVaginal = () => {
         "Unless medically necessary, we avoid unnecessary interventions. Our approach focuses on allowing labor to progress naturally while closely monitoring the well-being of mother and baby."
       ]
     },
-     {
-      title: "Labor-Friendly Environment",
-      points: [
-        "From your first prenatal visit to postpartum care, we keep you informed about every aspect of your delivery. Understanding what's happening helps reduce anxiety and empowers you to participate actively in your birthing experience."
-      ]
-    }
   ];
 
   const items = [
@@ -244,8 +238,8 @@ const NormalVaginal = () => {
     rating: 5
   },
   {
-    text: "he facilities at Prolife are excellent, but what really stood out was the personal attention. Every staff member knew my name and treated me with such kindness. They truly made my delivery day special.",
-    name: "Divay R",
+    text: "The facilities at Prolife are excellent, but what really stood out was the personal attention. Every staff member knew my name and treated me with such kindness. They truly made my delivery day special.",
+    name: " Divya R",
     avatar: "D",
     rating: 5
   }
@@ -511,7 +505,7 @@ const toggleFAQ = (index) => {
               <h3>Dr. Thamarai</h3>
               <h4>Gynecologist</h4>
               <p>
-                Founder of our hospital and Dr. Thamarai specializes in natural childbirth and believes in empowering women through education and support. Her dedication to minimizing unnecessary interventions has helped countless mothers achieve their desired birth experiences.
+                As the founder of our hospital, Dr. Thamarai specializes in natural childbirth and believes in empowering women through education and support. Her dedication to minimizing unnecessary interventions has helped countless mothers achieve their desired birth experiences.
               </p>
             </div>
           </div>
@@ -549,7 +543,7 @@ const toggleFAQ = (index) => {
                 Dr. Hari Prakash | Dr. Shalini | Dr. Nithya Priyan | Dr. Uma Maheshwari
               </p>
               <p className="doctor-desc">
-               offers expert pain management to ensure safe, comfortable deliveries. Our pediatric department, led by Dr. Uma Maheshwari, is ready to assess your newborn immediately, giving your baby the best start in life.
+               Our team offers expert pain management to ensure safe, comfortable deliveries. Our pediatric department, led by Dr. Uma Maheshwari, is ready to assess your newborn immediately, giving your baby the best start in life.
               </p>
             </div>
           </div>
@@ -617,7 +611,7 @@ const toggleFAQ = (index) => {
                 <h2>Take the First Step Toward Your Natural Birth</h2>
                 <p>Your journey to motherhood deserves expert support and compassionate care. At Prolife Hospital, we're committed to making your normal vaginal delivery a safe, comfortable, and empowering experience.</p>
                 
-                <button className="appointment-btn">Book Your Consultation Today</button>
+                <a href="/contact" className="appointment-btn">Book Your Consultation Today</a>
               </div>
             </div>
           </div>

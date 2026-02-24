@@ -238,7 +238,7 @@ const relatedServices = [
     " Multiple gestations (twins/triplets)",
     "Age under 17 or over 35",
     "Fetal growth or genetic concerns",
-    "besity or lifestyle-related risks",
+    "Obesity or lifestyle-related risks",
   ];
 
   const reviewsData = [
@@ -249,7 +249,7 @@ const relatedServices = [
       rating: 5
     },
     {
-      text: "It's was a beautiful and pleasant experience and journey with Prolife Hospital and Dr.Thamarai Ram during planning for pregnancy, pregnancy, delivery and post delivery. Warmth, hospitality and helping tendency during delivery time makesour life easy and to be appreciated. Hope and trust this will be continued in years to come.",
+      text: "It was a beautiful and pleasant experience and journey with Prolife Hospital and Dr.Thamarai Ram during planning for pregnancy, pregnancy, delivery and post delivery. Warmth, hospitality and helping tendency during delivery time makes our life easy and to be appreciated. Hope and trust this will be continued in years to come.",
       name: "-Sreya",
       avatar: "S",
       rating: 5
@@ -361,7 +361,7 @@ const relatedServices = [
 
           <div className="plan-left">
             <h2 className="plan-title">
-              Advanced Care for Safe, Confident & Well- Monitored Pregnancies
+              Advanced Care for Safe, Confident & Well-Monitored Pregnancies
             </h2>
 
             <p className="plan-description">
@@ -380,7 +380,7 @@ const relatedServices = [
           <div className="plan-right">
             <img
               src="/images/img/highrisk1.jpg"
-              alt="Pre Pregnancy Consultation"
+              alt="Pre-Pregnancy Consultation"
             />
           </div>
 
@@ -660,7 +660,7 @@ const relatedServices = [
               <h3>Dr. Thamarai</h3>
               <h4>Maternal – Fetal Medicine Specialist</h4>
               <p>
-                Founder of our hospital and Expert in managing complex medical conditions before and during pregnancy—diabetes, hypertension, autoimmune disorders.
+                 Founder of our hospital and an expert in managing complex medical before and during pregnancy—diabetes, hypertension, autoimmune disorders.
               </p>
             </div>
           </div>
@@ -783,7 +783,7 @@ const relatedServices = [
   </div>
 
   <div className="prolife-cta">
-    <a href="/about" className="cta-btn">Learn more about our maternity care →</a>
+    <a href="/story" className="cta-btn">Learn more about our maternity care →</a>
   </div>
 </section>
 
@@ -826,13 +826,13 @@ const relatedServices = [
           <div className="journey-grid">
             <div className="journey-image">
               <div className="journey-content">
-                <h2>Book Your Cervical Cerclage Consultation</h2>
+                <h2>Book Your High-Risk Pregnancy Consultation</h2>
                 <p>If you've been advised to seek high-risk pregnancy care—or if your pregnancy feels uncertain—our specialists are here to guide you safely.</p>
                 <p> <b>Consultation Hours:</b> <br />
                   Monday - Saturday: 9 AM - 8 PM <br />
                   Sunday: 9 AM - 2 PM</p>
                 <p><b>Emergency Care:</b> <br /> Available 24/7</p>
-                <button className="appointment-btn">Book Appointment Online → </button>
+                <a href="/contact" className="appointment-btn">Book Appointment Online → </a>
               </div>
             </div>
           </div>

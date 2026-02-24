@@ -162,13 +162,13 @@ const containerRef = useRef(null);
       rating: 5
     },
     {
-      text: "It's was a beautiful and pleasant experience and journey with Prolife Hospital and Dr.Thamarai Ram during planning for pregnancy, pregnancy, delivery and post delivery. Warmth, hospitality and helping tendency during delivery time make sour life easy and to be appreciated. Hope and trust this will be continued in years to come.",
+      text: "It was a beautiful and pleasant experience and journey with Prolife Hospital and Dr.Thamarai Ram during planning for pregnancy, pregnancy, delivery and post delivery. Warmth, hospitality and helping tendency during delivery time makes our life easy and to be appreciated. Hope and trust this will be continued in years to come.",
       name:"-Sreya",
       avatar: "S",
       rating: 5
     },
     {
-      text:"We had our second delivery in prolife. We had safe delivery experience by Dr. tamarai, Dr. Sujitha, Dr Iswarya . We had excellent support and care by ward staff and nurses.They take care of my wife and daughter very well. Rooms also neat and clean",
+      text:"We had our second delivery in prolife. We had safe delivery experience by Dr. Thamarai Ram, Dr. Sujitha, Dr Iswarya . We had excellent support and care by ward staff and nurses.They take care of my wife and daughter very well. Rooms also neat and clean",
       name: "-Selva Ganesh",
       avatar: "S",
       rating: 5
@@ -261,7 +261,7 @@ const containerRef = useRef(null);
             <div className="plan-right">
             <img
               src="/images/img/pl2.jpg"
-              alt="Pre Pregnancy Consultation"
+              alt="Pre-Pregnancy Consultation"
             />
           </div>
 
@@ -294,7 +294,7 @@ const containerRef = useRef(null);
           <div className="plan-right">
             <img
               src="/images/img/pre-pregnancy2.jpg"
-              alt="Pre Pregnancy Consultation"
+              alt="Pre-Pregnancy Consultation"
             />
           </div>
           <div className="plan-left">
@@ -318,7 +318,7 @@ const containerRef = useRef(null);
       <section className="choose-prolife">
         <div className="choose-content">
           <h2 className="choose-title">
-            Why Choose Prolife <span>Prolife</span> for Cervical Cerclage in Chennai?
+            Why Choose <span>Prolife</span> for Cervical Cerclage in Chennai?
           </h2>
           <p><b>When facing the threat of early delivery, you need expert guidance and immediate intervention. Here’s what makes our approach exceptional:</b></p> <br />
         
@@ -528,7 +528,7 @@ const containerRef = useRef(null);
               <h3>Dr. Thamarai</h3>
               <h4>Maternal – Fetal Medicine Specialist</h4>
               <p>
-                Founder of our hospital and  Dr. Thamarai's patient-centered approach combines clinical excellence with genuine compassion, making her a trusted partner for women navigating thyroid concerns alongside gynecological health.
+                Founder of our hospital and  Dr. Thamarai's patient-centered approach combines clinical excellence with genuine compassion, making her a trusted partner for women navigating high-risk pregnancies and preterm labor alongside gynecological health.
               </p>
             </div>
           </div>
@@ -572,7 +572,7 @@ const containerRef = useRef(null);
             </div>
 
           <div className="center-btn">
-            <button className="cta-btn">Meet Our Doctors</button>
+            <a href="/ourteam" className="cta-btn">Meet Our Doctors</a>
           </div>
         </div>
       </section>
@@ -585,16 +585,14 @@ const containerRef = useRef(null);
     <div className="wp-grid fade-up">
       <div className="wp-item slide-in-left"> <b>Complete Maternity Infrastructure -</b> Everything—from evaluation to delivery and neonatal care—happens seamlessly under one roof.</div>
       <div className="wp-item slide-in-right"> <b>Advanced Modular Operation Theatres -</b> Ready for urgent cesarean deliveries when needed, minimizing delays in critical moments.</div>
-      <div className="wp-item slide-in-left"> <b>Comfortable & Private Wards </b> 
-Stress-free, air-conditioned rooms support healing during monitoring or extended bed rest.
+      <div className="wp-item slide-in-left"> <b>Comfortable & Private Wards. Stress-free,</b> air-conditioned rooms support healing during monitoring or extended bed rest.
 </div>
-      <div className="wp-item slide-in-right"> <b> 24/7 Diagnostics & Pharmacy</b>
-Immediate access to tests, medications, and emergency therapies ensures no treatment delay.
+      <div className="wp-item slide-in-right"> <b> 24/7 Diagnostics & Pharmacy</b> Immediate access to tests, medications, and emergency therapies ensures no treatment delay.
 </div>
-      <div className="wp-item slide-in-left"> <b>Family-Centered Maternity Care </b> 
+      <div className="wp-item slide-in-left"> <b>Family-Centered Maternity Care. </b> 
 We involve partners and families to create a supportive, reassuring environment.
 </div>
-      <div className="wp-item slide-in-right"> <b>Accessible & Affordable Excellence </b>
+      <div className="wp-item slide-in-right"> <b>Accessible & Affordable Excellence. </b>
 We offer top-tier high-risk pregnancy care at affordable costs with support for multiple insurance plans.
 </div>
     </div>
@@ -648,7 +646,7 @@ We offer top-tier high-risk pregnancy care at affordable costs with support for 
 Even if you're not currently in labor but have risk factors that concern you, proactive consultation can lead to monitoring and preventive strategies that reduce your chances of early delivery.
 </p>
                 <p>Every day your baby stays safely in the womb matters. Let us help you reach that finish line.</p>
-                <button className="appointment-btn">Book Appointment Online → </button>
+                <a href="/contact" className="appointment-btn">Book Appointment Online → </a>
               </div>
             </div>
           </div>

@@ -216,7 +216,7 @@ const containerRef = useRef(null);
 
   const reviewsData = [
     {
-      text: "After losing my baby at 20 weeks, I was terrified to get pregnant again. Dr. Sujitha placed a cerclage at 14 weeks in my next pregnancy. I was monitored closely, followed every instruction, and delivered a healthy boy at 38 weeks. She gave it to my family.",
+      text: "After losing my baby at 20 weeks, I was terrified to get pregnant again. Dr. Sujitha placed a cerclage at 14 weeks in my next pregnancy. I was monitored closely, followed every instruction, and delivered a healthy boy at 38 weeks. She gave my family hope.",
       name: " Lakshmi P., Porur",
       avatar: "L",
       rating: 5
@@ -364,7 +364,8 @@ const containerRef = useRef(null);
               Cervical cerclage is a surgical procedure where we stitch your cervix closed during pregnancy to prevent premature opening. Think of it as reinforcement—giving your cervix the strength to hold your baby safely until delivery time.
             </p>
             <p className="plan-description">Your cervix naturally softens and opens during labor. But if it's weak (called cervical incompetence), it might open too early—causing miscarriage or preterm birth. A cerclage prevents this.
-              The procedure is simple, safe, and can make the difference between loss and bringing your baby home.
+              The procedure is simple, safe, and can make the difference between pregnancy
+loss and bringing your baby home.
             </p>
             <a href="/contact" className="plan-btn">
               Learn More About Our Maternity Services →
@@ -420,7 +421,7 @@ const containerRef = useRef(null);
             </li>
           </ul>
 
-          <a href="/reviews" className="choose-btn">
+          <a href="https://www.justdial.com/Chennai/Prolife-Maternity-and-Fertility-Hospital-Near-DLF-LT-and-Chennai-Trade-Centre-Manapakkam/044PXX44-XX44-191211174423-E9K1_BZDET/reviews" className="choose-btn">
             Read What Our Mothers Say →
           </a>
         </div>
@@ -452,7 +453,7 @@ const containerRef = useRef(null);
 
           {/* Complications */}
           <div className="service-card">
-            <h3>Cerclage Placement Procédure</h3>
+            <h3>Cerclage Placement Procedure</h3>
             <p>Performed under spinal or general anesthesia in our modern operation theater. Takes 20-30 minutes on average. Strong surgical stitches reinforce the cervix opening. You rest in recovery for observation before going home.</p>
           </div>
 
@@ -471,7 +472,7 @@ const containerRef = useRef(null);
           {/* Postpartum Care */}
           <div className="service-card">
             <h3>Delivery Planning</h3>
-            <p>When it's time for delivery, we remove the cerclage (usually around 36-37 weeks). Labor can proceed naturally, or we schedule a cesarean if needed.</p>
+            <p>When it's time for delivery, we remove the cerclage (usually around 36-37 weeks). Labour can proceed naturally, or we schedule a cesarean if needed.</p>
           </div>
         </div>
 
@@ -534,7 +535,7 @@ const containerRef = useRef(null);
             <ul>
               <li>Active vaginal bleeding or infection</li>
               <li>Rupture of membranes (water already broken)</li>
-              <li>Labor has already started</li>
+              <li>Labour has already started</li>
               <li>Fetal abnormalities incompatible with life</li>
               <li>Placental problems requiring early delivery</li>
             </ul>
@@ -595,7 +596,7 @@ const containerRef = useRef(null);
             <span className="eds-bar"></span>
             <h3>Anesthesiology Team :</h3>
             <p>
-             <b> Dr. Hari Prakash | Dr. Shalini | Dr. Nithya Priyan</b> 
+             <b> Dr. Hari Prakash | Dr. Shalini | Dr. Nithya Priyan</b> -  
                Ensure comfortable, pain-free procedures with expert anesthesia administration. Monitor patient safety throughout surgery and recovery.
             </p>
           </div>
@@ -626,7 +627,7 @@ const containerRef = useRef(null);
     </div>
 
     <div className="wp-btn-wrapper fade-up">
-      <button className="wp-cta-btn">Learn More About Our Hospital</button>
+      <button className="wp-cta-btn"> <a href="/story"> Learn More About Our Hospital </a></button>
     </div>
   </div>
 </section>
@@ -675,7 +676,7 @@ const containerRef = useRef(null);
                   Monday - Saturday: 9 AM - 8 PM <br />
                   Sunday: 9 AM - 2 PM</p>
                 <p><b>Emergency Care:</b> <br /> Available 24/7</p>
-                <button className="appointment-btn">Book Appointment Online → </button>
+                <a href="/contact" className="appointment-btn">  Book Appointment Online → </a>
               </div>
             </div>
           </div>
@@ -721,7 +722,7 @@ const containerRef = useRef(null);
               <button
                 className="rs-cta"
                 aria-label={`Learn more about ${s.title}`}
-              >
+              > 
                 Learn More →
               </button>
             </article>
@@ -737,8 +738,8 @@ const containerRef = useRef(null);
 
           </h1>
 
-          <button className="lab-btn">
-             Protect Your Pregnancy Today →
+          <button className="lab-btn"> <a href="/pregnancy">
+             Protect Your Pregnancy Today → </a>
           </button>
         </div>
       </section>

@@ -187,13 +187,13 @@ const PrePregnancy = () => {
     rating: 5
   },
   {
-    text: "It's was a beautiful and pleasant experience and journey with Prolife Hospital and Dr.Thamarai Ram during planning for pregnancy, pregnancy, delivery and post delivery. Warmth, hospitality and helping tendency during delivery time makes our life easy and to be appreciated. Hope and trust this will be continued in years to come.",
+    text: "It was a beautiful and pleasant experience and journey with Prolife Hospital and Dr.Thamarai Ram during planning for pregnancy, pregnancy, delivery and post delivery. Warmth, hospitality and helping tendency during delivery time makes our life easy and to be appreciated. Hope and trust this will be continued in years to come.",
     name: "Sreya",
     avatar: "S",
     rating: 5
   },
   {
-    text: "We had our second delivery in prolife. We had safe delivery experience by Dr. tamarai, Dr. Sujitha, Dr Iswarya . We had excellent support and care by ward staff and nurses.They take care of my wife and daughter very well. Rooms also neat and clean",
+    text: "We had our second delivery in prolife. We had safe delivery experience by Dr. Thamarai, Dr. Sujitha, Dr. Iswarya. We had excellent support and care by ward staff and nurses. They take care of my wife and daughter very well. Rooms are also neat and clean",
     name: "Selva Ganesh",
     avatar: "S",
     rating: 5
@@ -516,7 +516,7 @@ const toggleFAQ = (index) => {
               <h3>Dr. Thamarai</h3>
               <h4>Maternal – Fetal Medicine Specialist</h4>
               <p>
-                Founder of our hospital and Expert in managing complex medical conditions before and during pregnancy—diabetes, hypertension, autoimmune disorders.
+                Founder of our hospital and Expert in managing complex medical conditions. - Founder of our hospital and an expert in managing complex medical. 
               </p>
             </div>
           </div>
@@ -582,7 +582,7 @@ const toggleFAQ = (index) => {
   </div>
 
   <div className="prolife-cta">
-    <a href="/about" className="cta-btn">Learn More About Us →</a>
+    <a href="/story" className="cta-btn">Learn More About Us →</a>
   </div>
 </section>
 
@@ -674,7 +674,7 @@ const toggleFAQ = (index) => {
         <h1>
           Prolife Hospital —  Expert pregnancy care in Chennai for your growing family.
         </h1>
-        <div><a href="/contact" className="lab-btn">Start Your Journey Today →</a></div>
+        <a href="/contact" className="lab-btn1">Start Your Journey Today →</a>
         
       </div>
     </section>

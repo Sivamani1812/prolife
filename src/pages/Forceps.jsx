@@ -745,7 +745,7 @@ const containerRef = useRef(null);
                 
                 <p>Whether you're planning your delivery or facing unexpected complications during labor, Prolife Hospitals is here with expertise, technology, and heart.</p>
                 <p><b>Emergency Care:</b> <br /> Available 24/7</p>
-                <button className="appointment-btn">Book an Appointment Now → </button>
+                <a href="/contact" className="appointment-btn">Book an Appointment Now → </a>
               </div>
             </div>
           </div>
