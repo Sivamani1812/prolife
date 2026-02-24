@@ -18,7 +18,7 @@ export default function Footer() {
         <div className="social-icons">
           <a href="https://www.facebook.com/profile.php?id=61563824666790"><i className="fa-brands fa-facebook-f"></i></a>
           <a href="https://www.instagram.com/prolifehospitalchennai?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i className="fa-brands fa-instagram"></i></a>
-          <a href="https://youtube.com/@prolifeogclinic2028?si=bfduUeWAiSfba32f"><i className="fa-brands fa-youtube"></i></a>
+          <a href="https://youtube.com/@prolifehospitalschennai?si=nIzSBw8vEaDJCXjH"><i className="fa-brands fa-youtube"></i></a>
           <a href="https://wa.me/919790869211" target="_blank"><i className="fa-brands fa-whatsapp"></i></a>
         </div>
       </div>
